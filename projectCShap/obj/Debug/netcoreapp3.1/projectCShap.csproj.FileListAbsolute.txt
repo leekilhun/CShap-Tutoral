@@ -1,0 +1,15 @@
+E:\CShap\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.exe
+E:\CShap\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.deps.json
+E:\CShap\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.runtimeconfig.json
+E:\CShap\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.runtimeconfig.dev.json
+E:\CShap\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.dll
+E:\CShap\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.pdb
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csprojAssemblyReference.cache
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.Form1.resources
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csproj.GenerateResource.cache
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.AssemblyInfoInputs.cache
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.AssemblyInfo.cs
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csproj.CoreCompileInputs.cache
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.dll
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.pdb
+E:\CShap\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.genruntimeconfig.cache
