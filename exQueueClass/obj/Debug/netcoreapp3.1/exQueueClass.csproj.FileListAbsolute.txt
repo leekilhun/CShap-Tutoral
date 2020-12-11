@@ -1,0 +1,12 @@
+E:\_Github\CShap-Tutoral\exQueueClass\bin\Debug\netcoreapp3.1\exQueueClass.exe
+E:\_Github\CShap-Tutoral\exQueueClass\bin\Debug\netcoreapp3.1\exQueueClass.deps.json
+E:\_Github\CShap-Tutoral\exQueueClass\bin\Debug\netcoreapp3.1\exQueueClass.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exQueueClass\bin\Debug\netcoreapp3.1\exQueueClass.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exQueueClass\bin\Debug\netcoreapp3.1\exQueueClass.dll
+E:\_Github\CShap-Tutoral\exQueueClass\bin\Debug\netcoreapp3.1\exQueueClass.pdb
+E:\_Github\CShap-Tutoral\exQueueClass\obj\Debug\netcoreapp3.1\exQueueClass.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exQueueClass\obj\Debug\netcoreapp3.1\exQueueClass.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exQueueClass\obj\Debug\netcoreapp3.1\exQueueClass.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exQueueClass\obj\Debug\netcoreapp3.1\exQueueClass.dll
+E:\_Github\CShap-Tutoral\exQueueClass\obj\Debug\netcoreapp3.1\exQueueClass.pdb
+E:\_Github\CShap-Tutoral\exQueueClass\obj\Debug\netcoreapp3.1\exQueueClass.genruntimeconfig.cache

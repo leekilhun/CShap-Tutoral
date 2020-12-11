@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cxgnm3LLiEyr7Fq9AhX+skzDg2aeA4eNaKhX/z4tGqPV6hCJpOAioGHhusu5hdi9+bCIfnz0grwedaUNoN7VUw==",
+  "success": true,
+  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\exQueueClass\\exQueueClass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
