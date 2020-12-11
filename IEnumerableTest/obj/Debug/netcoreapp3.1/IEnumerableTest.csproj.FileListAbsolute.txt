@@ -1,0 +1,12 @@
+E:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.exe
+E:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.deps.json
+E:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.runtimeconfig.json
+E:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.dll
+E:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.pdb
+E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.dll
+E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.pdb
+E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.genruntimeconfig.cache
