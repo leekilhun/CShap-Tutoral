@@ -1,0 +1,13 @@
+E:\_Github\CShap-Tutoral\exArrayList\bin\Debug\netcoreapp3.1\exArrayList.exe
+E:\_Github\CShap-Tutoral\exArrayList\bin\Debug\netcoreapp3.1\exArrayList.deps.json
+E:\_Github\CShap-Tutoral\exArrayList\bin\Debug\netcoreapp3.1\exArrayList.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exArrayList\bin\Debug\netcoreapp3.1\exArrayList.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exArrayList\bin\Debug\netcoreapp3.1\exArrayList.dll
+E:\_Github\CShap-Tutoral\exArrayList\bin\Debug\netcoreapp3.1\exArrayList.pdb
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.dll
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.pdb
+E:\_Github\CShap-Tutoral\exArrayList\obj\Debug\netcoreapp3.1\exArrayList.genruntimeconfig.cache
