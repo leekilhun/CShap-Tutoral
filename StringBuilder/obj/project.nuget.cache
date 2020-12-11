@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qV7nE+PJv4hMSkI8pfYLqvRKkpeBa8GdA+E/aj3y48C4dHFfGq9ZAyayb2wDS3iojZjk3oebLKtbONTVItqHSA==",
+  "success": true,
+  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\StringBuilder\\exStringBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

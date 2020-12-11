@@ -22,7 +22,7 @@ namespace projectCShap
             // Ctrl + C
             if (e.Control && e.KeyCode == Keys.C)
             {
-                DataObject CopiedContent = dataGridView1.GetClipboardContent();
+                DataObject CopiedContent = dataGridViewTest.GetClipboardContent();
                 Clipboard.SetDataObject(CopiedContent);
                 e.Handled = true;
             }
@@ -44,30 +44,30 @@ namespace projectCShap
                     }
                 }
 
-                int StartingRow = dataGridView1.CurrentCell.RowIndex;
-                int StartingColumn = dataGridView1.CurrentCell.ColumnIndex;
+                int StartingRow = dataGridViewTest.CurrentCell.RowIndex;
+                int StartingColumn = dataGridViewTest.CurrentCell.ColumnIndex;
 
                 // 엑셀 처럼 제일 상단 왼쪽셀이 기준 셀이 되게한다.
-                for (int i = 0; i < dataGridView1.SelectedCells.Count; i++)
+                for (int i = 0; i < dataGridViewTest.SelectedCells.Count; i++)
                 {
                     // 현재 선택된 셀이 가장 작은셀인지 판단.
-                    if (StartingRow >= dataGridView1.SelectedCells[i].RowIndex
-                        && StartingColumn >= dataGridView1.SelectedCells[i].ColumnIndex)
+                    if (StartingRow >= dataGridViewTest.SelectedCells[i].RowIndex
+                        && StartingColumn >= dataGridViewTest.SelectedCells[i].ColumnIndex)
                     {
-                        StartingRow = dataGridView1.SelectedCells[i].RowIndex;
-                        StartingColumn = dataGridView1.SelectedCells[i].ColumnIndex;
+                        StartingRow = dataGridViewTest.SelectedCells[i].RowIndex;
+                        StartingColumn = dataGridViewTest.SelectedCells[i].ColumnIndex;
                     }
                 }
 
                 foreach (var line in Lines)
                 {
-                    if (StartingRow <= (dataGridView1.Rows.Count - 1))
+                    if (StartingRow <= (dataGridViewTest.Rows.Count - 1))
                     {
                         string[] cells = line.Split('\t');
                         int ColumnIndex = StartingColumn;
-                        for (int i = 0; i < cells.Length && ColumnIndex <= (dataGridView1.Columns.Count - 1); i++)
+                        for (int i = 0; i < cells.Length && ColumnIndex <= (dataGridViewTest.Columns.Count - 1); i++)
                         {
-                            dataGridView1[ColumnIndex++, StartingRow].Value = cells[i];
+                            dataGridViewTest[ColumnIndex++, StartingRow].Value = cells[i];
                         }
                         StartingRow++;
                     }
@@ -75,6 +75,11 @@ namespace projectCShap
             }
            // [출처] [C#]DataGridView 셀 안에서 복사,붙여넣기(feat. Excel)|작성자 깜둥
 
+
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

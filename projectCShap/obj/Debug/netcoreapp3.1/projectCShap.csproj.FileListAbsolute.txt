@@ -19,7 +19,6 @@ E:\_Github\CShap-Tutoral\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.runti
 E:\_Github\CShap-Tutoral\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.runtimeconfig.dev.json
 E:\_Github\CShap-Tutoral\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.dll
 E:\_Github\CShap-Tutoral\projectCShap\bin\Debug\netcoreapp3.1\projectCShap.pdb
-E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csprojAssemblyReference.cache
 E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.Form1.resources
 E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csproj.GenerateResource.cache
 E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.AssemblyInfoInputs.cache
@@ -28,3 +27,6 @@ E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.cspro
 E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.dll
 E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.pdb
 E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.genruntimeconfig.cache
+E:\_Github\CShap-Tutoral\projectCShap\bin\Debug\netcoreapp3.1\CsvHelper.dll
+E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\projectCShap\obj\Debug\netcoreapp3.1\projectCShap.csproj.CopyComplete

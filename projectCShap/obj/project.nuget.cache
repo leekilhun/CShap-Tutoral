@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0WM5Wb0HExJfAbYdGYrdO1qHsomKNb5IFbqTgy67pxkLQ/I6aNoNrdqkd1bdpX68c2L+AYgFxn/Bw+VBvQR63w==",
+  "dgSpecHash": "rBW0d+a+1SedL6m7EclJXeQXwbwUcrcQ22IXyzN8DikB4VG+GF3EaxovE+ZVA4RleyX8QFknAwKBQovmDRv4uQ==",
   "success": true,
   "projectFilePath": "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\csvhelper\\18.0.0\\csvhelper.18.0.0.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

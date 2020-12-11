@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj": {}
+    "E:\\_Github\\CShap-Tutoral\\StringBuilder\\StringBuilder.csproj": {}
   },
   "projects": {
-    "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj": {
+    "E:\\_Github\\CShap-Tutoral\\StringBuilder\\StringBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj",
-        "projectName": "projectCShap",
-        "projectPath": "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj",
+        "projectUniqueName": "E:\\_Github\\CShap-Tutoral\\StringBuilder\\StringBuilder.csproj",
+        "projectName": "StringBuilder",
+        "projectPath": "E:\\_Github\\CShap-Tutoral\\StringBuilder\\StringBuilder.csproj",
         "packagesPath": "C:\\Users\\gns2l\\.nuget\\packages\\",
-        "outputPath": "E:\\_Github\\CShap-Tutoral\\projectCShap\\obj\\",
+        "outputPath": "E:\\_Github\\CShap-Tutoral\\StringBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gns2l\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "CsvHelper": {
-              "target": "Package",
-              "version": "[18.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -68,9 +62,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"

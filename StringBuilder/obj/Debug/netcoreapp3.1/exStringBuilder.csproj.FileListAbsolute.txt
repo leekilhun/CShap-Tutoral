@@ -1,0 +1,12 @@
+E:\_Github\CShap-Tutoral\StringBuilder\bin\Debug\netcoreapp3.1\exStringBuilder.exe
+E:\_Github\CShap-Tutoral\StringBuilder\bin\Debug\netcoreapp3.1\exStringBuilder.deps.json
+E:\_Github\CShap-Tutoral\StringBuilder\bin\Debug\netcoreapp3.1\exStringBuilder.runtimeconfig.json
+E:\_Github\CShap-Tutoral\StringBuilder\bin\Debug\netcoreapp3.1\exStringBuilder.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\StringBuilder\bin\Debug\netcoreapp3.1\exStringBuilder.dll
+E:\_Github\CShap-Tutoral\StringBuilder\bin\Debug\netcoreapp3.1\exStringBuilder.pdb
+E:\_Github\CShap-Tutoral\StringBuilder\obj\Debug\netcoreapp3.1\exStringBuilder.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\StringBuilder\obj\Debug\netcoreapp3.1\exStringBuilder.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\StringBuilder\obj\Debug\netcoreapp3.1\exStringBuilder.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\StringBuilder\obj\Debug\netcoreapp3.1\exStringBuilder.dll
+E:\_Github\CShap-Tutoral\StringBuilder\obj\Debug\netcoreapp3.1\exStringBuilder.pdb
+E:\_Github\CShap-Tutoral\StringBuilder\obj\Debug\netcoreapp3.1\exStringBuilder.genruntimeconfig.cache
