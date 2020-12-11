@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "giUcGzIdtg/9cGSKyeNJkUr1Rk4CJnhLij/tav0MwUIenfMFl+pgZdqO0lciBGEWy6RP/urfq/bTLJZyBXfpJw==",
+  "success": true,
+  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\exMemoryStream\\exMemoryStream.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

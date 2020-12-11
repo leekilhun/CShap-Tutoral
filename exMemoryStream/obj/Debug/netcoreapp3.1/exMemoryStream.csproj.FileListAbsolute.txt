@@ -1,0 +1,13 @@
+E:\_Github\CShap-Tutoral\exMemoryStream\bin\Debug\netcoreapp3.1\exMemoryStream.exe
+E:\_Github\CShap-Tutoral\exMemoryStream\bin\Debug\netcoreapp3.1\exMemoryStream.deps.json
+E:\_Github\CShap-Tutoral\exMemoryStream\bin\Debug\netcoreapp3.1\exMemoryStream.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exMemoryStream\bin\Debug\netcoreapp3.1\exMemoryStream.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exMemoryStream\bin\Debug\netcoreapp3.1\exMemoryStream.dll
+E:\_Github\CShap-Tutoral\exMemoryStream\bin\Debug\netcoreapp3.1\exMemoryStream.pdb
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.dll
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.pdb
+E:\_Github\CShap-Tutoral\exMemoryStream\obj\Debug\netcoreapp3.1\exMemoryStream.genruntimeconfig.cache
