@@ -1,0 +1,17 @@
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\exDataGridView.exe
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\exDataGridView.deps.json
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\exDataGridView.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\exDataGridView.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\exDataGridView.dll
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\exDataGridView.pdb
+E:\_Github\CShap-Tutoral\exDataGridView\bin\Debug\netcoreapp3.1\CsvHelper.dll
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.Form1.resources
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.csproj.CopyComplete
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.dll
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.pdb
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.genruntimeconfig.cache
+E:\_Github\CShap-Tutoral\exDataGridView\obj\Debug\netcoreapp3.1\exDataGridView.csprojAssemblyReference.cache

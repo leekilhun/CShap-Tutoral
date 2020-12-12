@@ -126,11 +126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj",
-      "projectName": "projectCShap",
-      "projectPath": "E:\\_Github\\CShap-Tutoral\\projectCShap\\projectCShap.csproj",
+      "projectUniqueName": "E:\\_Github\\CShap-Tutoral\\exDataGridView\\exDataGridView.csproj",
+      "projectName": "exDataGridView",
+      "projectPath": "E:\\_Github\\CShap-Tutoral\\exDataGridView\\exDataGridView.csproj",
       "packagesPath": "C:\\Users\\gns2l\\.nuget\\packages\\",
-      "outputPath": "E:\\_Github\\CShap-Tutoral\\projectCShap\\obj\\",
+      "outputPath": "E:\\_Github\\CShap-Tutoral\\exDataGridView\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gns2l\\AppData\\Roaming\\NuGet\\NuGet.Config",

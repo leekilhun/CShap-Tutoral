@@ -1,0 +1,10 @@
+//  Test IO
+
+INPUT, 1, Name_1, etc1
+INPUT, 2, Name_2, etc2
+INPUT, 3, Name_3, etc3
+
+
+OUTPUT, 1, Name_1, etc1
+OUTPUT, 2, Name_2, etc2
+OUTPUT, 3, Name_3, etc3
