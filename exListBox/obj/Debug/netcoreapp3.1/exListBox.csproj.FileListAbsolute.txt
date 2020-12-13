@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exListBox\bin\Debug\netcoreapp3.1\exListBox.exe
+E:\_Github\CShap-Tutoral\exListBox\bin\Debug\netcoreapp3.1\exListBox.deps.json
+E:\_Github\CShap-Tutoral\exListBox\bin\Debug\netcoreapp3.1\exListBox.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exListBox\bin\Debug\netcoreapp3.1\exListBox.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exListBox\bin\Debug\netcoreapp3.1\exListBox.dll
+E:\_Github\CShap-Tutoral\exListBox\bin\Debug\netcoreapp3.1\exListBox.pdb
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.Form1.resources
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.dll
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.pdb
+E:\_Github\CShap-Tutoral\exListBox\obj\Debug\netcoreapp3.1\exListBox.genruntimeconfig.cache

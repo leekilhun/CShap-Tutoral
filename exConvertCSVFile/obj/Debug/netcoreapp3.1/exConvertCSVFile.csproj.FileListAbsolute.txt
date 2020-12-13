@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exConvertCSVFile\bin\Debug\netcoreapp3.1\exConvertCSVFile.exe
+E:\_Github\CShap-Tutoral\exConvertCSVFile\bin\Debug\netcoreapp3.1\exConvertCSVFile.deps.json
+E:\_Github\CShap-Tutoral\exConvertCSVFile\bin\Debug\netcoreapp3.1\exConvertCSVFile.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exConvertCSVFile\bin\Debug\netcoreapp3.1\exConvertCSVFile.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exConvertCSVFile\bin\Debug\netcoreapp3.1\exConvertCSVFile.dll
+E:\_Github\CShap-Tutoral\exConvertCSVFile\bin\Debug\netcoreapp3.1\exConvertCSVFile.pdb
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.Form1.resources
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.dll
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.pdb
+E:\_Github\CShap-Tutoral\exConvertCSVFile\obj\Debug\netcoreapp3.1\exConvertCSVFile.genruntimeconfig.cache

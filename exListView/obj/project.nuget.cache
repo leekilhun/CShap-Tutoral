@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0221A2KIBu+K9Q8jARt/dMleeWrzORSlaa8vd+w21SPMzMpMlOWK5ZVUs463ar/ngQzF+pUZ6oRYMqvzZfq5EQ==",
+  "success": true,
+  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\exListView\\exListView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+참고 : https://msdn.microsoft.com/ko-kr/library/system.windows.forms.listview(v=vs.110).aspx
+       https://msdn.microsoft.com/ko-kr/library/system.windows.forms.listviewitem(v=vs.110).aspx
+       https://msdn.microsoft.com/en-us/library/system.windows.forms.listview.columns(v=vs.110).aspx
+       https://msdn.microsoft.com/en-us/library/system.windows.forms.columnheader(v=vs.110).aspx 
+     --> ColumnHeader Class
+
+
+
+ListView.View ; 화면 설정 
+  (https://msdn.microsoft.com/ko-kr/library/system.windows.forms.listview.view(v=vs.110).aspx)
+  --- Details, List, Tile, LargeIcon, SmallIcon 중의 하나
+
+
+ListView.GridLines ; 구분선 표시 설정
+  (https://msdn.microsoft.com/ko-kr/library/system.windows.forms.listview.gridlines(v=vs.110).aspx)
+ 
+
+ListView.FullRowSelect ; 한줄씩 선택 설정
+  (https://msdn.microsoft.com/ko-kr/library/system.windows.forms.listview.fullrowselect(v=vs.110).aspx)
+
+
+ListView.CheckBoxes ; 체크박스 표시하기
+   (https://msdn.microsoft.com/ko-kr/library/system.windows.forms.listview.checkboxes(v=vs.110).aspx)
+
+

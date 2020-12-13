@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
+using System.Globalization;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -9,6 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
 
 namespace exDataGridView
 {
@@ -23,6 +24,10 @@ namespace exDataGridView
             dataGrid = tblGridView;
             getFileData();
         }
+
+
+
+       
 
         private void getFileData()
         {
@@ -123,6 +128,11 @@ namespace exDataGridView
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnOpenFile_Click(object sender, EventArgs e)
         {
 
         }
