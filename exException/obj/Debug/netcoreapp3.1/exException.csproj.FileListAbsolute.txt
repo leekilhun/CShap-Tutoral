@@ -1,0 +1,16 @@
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.Form1.resources
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.Properties.Resources.resources
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exException\bin\Debug\netcoreapp3.1\exException.exe
+E:\_Github\CShap-Tutoral\exException\bin\Debug\netcoreapp3.1\exException.deps.json
+E:\_Github\CShap-Tutoral\exException\bin\Debug\netcoreapp3.1\exException.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exException\bin\Debug\netcoreapp3.1\exException.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exException\bin\Debug\netcoreapp3.1\exException.dll
+E:\_Github\CShap-Tutoral\exException\bin\Debug\netcoreapp3.1\exException.pdb
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.dll
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.pdb
+E:\_Github\CShap-Tutoral\exException\obj\Debug\netcoreapp3.1\exException.genruntimeconfig.cache
