@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "exAsyncContol/1.0.0": {
+        "runtime": {
+          "exAsyncContol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exAsyncContol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

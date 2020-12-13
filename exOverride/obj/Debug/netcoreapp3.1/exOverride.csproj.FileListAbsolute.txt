@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exOverride\bin\Debug\netcoreapp3.1\exOverride.exe
+E:\_Github\CShap-Tutoral\exOverride\bin\Debug\netcoreapp3.1\exOverride.deps.json
+E:\_Github\CShap-Tutoral\exOverride\bin\Debug\netcoreapp3.1\exOverride.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exOverride\bin\Debug\netcoreapp3.1\exOverride.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exOverride\bin\Debug\netcoreapp3.1\exOverride.dll
+E:\_Github\CShap-Tutoral\exOverride\bin\Debug\netcoreapp3.1\exOverride.pdb
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.Form1.resources
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.dll
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.pdb
+E:\_Github\CShap-Tutoral\exOverride\obj\Debug\netcoreapp3.1\exOverride.genruntimeconfig.cache

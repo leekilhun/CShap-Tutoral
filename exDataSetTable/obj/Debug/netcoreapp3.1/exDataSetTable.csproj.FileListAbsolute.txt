@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exDataSetTable\bin\Debug\netcoreapp3.1\exDataSetTable.exe
+E:\_Github\CShap-Tutoral\exDataSetTable\bin\Debug\netcoreapp3.1\exDataSetTable.deps.json
+E:\_Github\CShap-Tutoral\exDataSetTable\bin\Debug\netcoreapp3.1\exDataSetTable.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exDataSetTable\bin\Debug\netcoreapp3.1\exDataSetTable.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exDataSetTable\bin\Debug\netcoreapp3.1\exDataSetTable.dll
+E:\_Github\CShap-Tutoral\exDataSetTable\bin\Debug\netcoreapp3.1\exDataSetTable.pdb
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.Form1.resources
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.dll
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.pdb
+E:\_Github\CShap-Tutoral\exDataSetTable\obj\Debug\netcoreapp3.1\exDataSetTable.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\bin\Debug\netcoreapp3.1\exArrayListDataStruc.exe
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\bin\Debug\netcoreapp3.1\exArrayListDataStruc.deps.json
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\bin\Debug\netcoreapp3.1\exArrayListDataStruc.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\bin\Debug\netcoreapp3.1\exArrayListDataStruc.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\bin\Debug\netcoreapp3.1\exArrayListDataStruc.dll
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\bin\Debug\netcoreapp3.1\exArrayListDataStruc.pdb
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.Form1.resources
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.Properties.Resources.resources
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.dll
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.pdb
+E:\_Github\CShap-Tutoral\exArrayListDataStruc\obj\Debug\netcoreapp3.1\exArrayListDataStruc.genruntimeconfig.cache

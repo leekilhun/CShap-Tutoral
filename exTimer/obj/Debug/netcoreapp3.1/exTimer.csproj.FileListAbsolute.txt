@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exTimer\bin\Debug\netcoreapp3.1\exTimer.exe
+E:\_Github\CShap-Tutoral\exTimer\bin\Debug\netcoreapp3.1\exTimer.deps.json
+E:\_Github\CShap-Tutoral\exTimer\bin\Debug\netcoreapp3.1\exTimer.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exTimer\bin\Debug\netcoreapp3.1\exTimer.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exTimer\bin\Debug\netcoreapp3.1\exTimer.dll
+E:\_Github\CShap-Tutoral\exTimer\bin\Debug\netcoreapp3.1\exTimer.pdb
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.Form1.resources
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.dll
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.pdb
+E:\_Github\CShap-Tutoral\exTimer\obj\Debug\netcoreapp3.1\exTimer.genruntimeconfig.cache

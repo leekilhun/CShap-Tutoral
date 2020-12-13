@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exInherit\bin\Debug\netcoreapp3.1\exInherit.exe
+E:\_Github\CShap-Tutoral\exInherit\bin\Debug\netcoreapp3.1\exInherit.deps.json
+E:\_Github\CShap-Tutoral\exInherit\bin\Debug\netcoreapp3.1\exInherit.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exInherit\bin\Debug\netcoreapp3.1\exInherit.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exInherit\bin\Debug\netcoreapp3.1\exInherit.dll
+E:\_Github\CShap-Tutoral\exInherit\bin\Debug\netcoreapp3.1\exInherit.pdb
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.Form1.resources
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.dll
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.pdb
+E:\_Github\CShap-Tutoral\exInherit\obj\Debug\netcoreapp3.1\exInherit.genruntimeconfig.cache

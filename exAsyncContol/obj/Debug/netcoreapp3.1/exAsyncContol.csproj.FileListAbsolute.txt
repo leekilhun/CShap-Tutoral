@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exAsyncContol\bin\Debug\netcoreapp3.1\exAsyncContol.exe
+E:\_Github\CShap-Tutoral\exAsyncContol\bin\Debug\netcoreapp3.1\exAsyncContol.deps.json
+E:\_Github\CShap-Tutoral\exAsyncContol\bin\Debug\netcoreapp3.1\exAsyncContol.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exAsyncContol\bin\Debug\netcoreapp3.1\exAsyncContol.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exAsyncContol\bin\Debug\netcoreapp3.1\exAsyncContol.dll
+E:\_Github\CShap-Tutoral\exAsyncContol\bin\Debug\netcoreapp3.1\exAsyncContol.pdb
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.Form1.resources
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.dll
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.pdb
+E:\_Github\CShap-Tutoral\exAsyncContol\obj\Debug\netcoreapp3.1\exAsyncContol.genruntimeconfig.cache

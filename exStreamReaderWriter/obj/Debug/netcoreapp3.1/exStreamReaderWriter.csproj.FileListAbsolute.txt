@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\bin\Debug\netcoreapp3.1\exStreamReaderWriter.exe
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\bin\Debug\netcoreapp3.1\exStreamReaderWriter.deps.json
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\bin\Debug\netcoreapp3.1\exStreamReaderWriter.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\bin\Debug\netcoreapp3.1\exStreamReaderWriter.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\bin\Debug\netcoreapp3.1\exStreamReaderWriter.dll
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\bin\Debug\netcoreapp3.1\exStreamReaderWriter.pdb
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.Form1.resources
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.dll
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.pdb
+E:\_Github\CShap-Tutoral\exStreamReaderWriter\obj\Debug\netcoreapp3.1\exStreamReaderWriter.genruntimeconfig.cache

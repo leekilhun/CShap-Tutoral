@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exDelegateUse\bin\Debug\netcoreapp3.1\exDelegateUse.exe
+E:\_Github\CShap-Tutoral\exDelegateUse\bin\Debug\netcoreapp3.1\exDelegateUse.deps.json
+E:\_Github\CShap-Tutoral\exDelegateUse\bin\Debug\netcoreapp3.1\exDelegateUse.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exDelegateUse\bin\Debug\netcoreapp3.1\exDelegateUse.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exDelegateUse\bin\Debug\netcoreapp3.1\exDelegateUse.dll
+E:\_Github\CShap-Tutoral\exDelegateUse\bin\Debug\netcoreapp3.1\exDelegateUse.pdb
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.Form1.resources
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.frmPizza.resources
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.dll
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.pdb
+E:\_Github\CShap-Tutoral\exDelegateUse\obj\Debug\netcoreapp3.1\exDelegateUse.genruntimeconfig.cache

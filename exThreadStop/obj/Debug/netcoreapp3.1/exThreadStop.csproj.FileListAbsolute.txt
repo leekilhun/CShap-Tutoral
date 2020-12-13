@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exThreadStop\bin\Debug\netcoreapp3.1\exThreadStop.exe
+E:\_Github\CShap-Tutoral\exThreadStop\bin\Debug\netcoreapp3.1\exThreadStop.deps.json
+E:\_Github\CShap-Tutoral\exThreadStop\bin\Debug\netcoreapp3.1\exThreadStop.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exThreadStop\bin\Debug\netcoreapp3.1\exThreadStop.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exThreadStop\bin\Debug\netcoreapp3.1\exThreadStop.dll
+E:\_Github\CShap-Tutoral\exThreadStop\bin\Debug\netcoreapp3.1\exThreadStop.pdb
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.Form1.resources
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.Play.resources
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.dll
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.pdb
+E:\_Github\CShap-Tutoral\exThreadStop\obj\Debug\netcoreapp3.1\exThreadStop.genruntimeconfig.cache

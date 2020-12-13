@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exPartialClass\bin\Debug\netcoreapp3.1\exPartialClass.exe
+E:\_Github\CShap-Tutoral\exPartialClass\bin\Debug\netcoreapp3.1\exPartialClass.deps.json
+E:\_Github\CShap-Tutoral\exPartialClass\bin\Debug\netcoreapp3.1\exPartialClass.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exPartialClass\bin\Debug\netcoreapp3.1\exPartialClass.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exPartialClass\bin\Debug\netcoreapp3.1\exPartialClass.dll
+E:\_Github\CShap-Tutoral\exPartialClass\bin\Debug\netcoreapp3.1\exPartialClass.pdb
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.Form1.resources
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.dll
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.pdb
+E:\_Github\CShap-Tutoral\exPartialClass\obj\Debug\netcoreapp3.1\exPartialClass.genruntimeconfig.cache

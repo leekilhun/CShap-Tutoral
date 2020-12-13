@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exQueueDataStruc\bin\Debug\netcoreapp3.1\exQueueDataStruc.exe
+E:\_Github\CShap-Tutoral\exQueueDataStruc\bin\Debug\netcoreapp3.1\exQueueDataStruc.deps.json
+E:\_Github\CShap-Tutoral\exQueueDataStruc\bin\Debug\netcoreapp3.1\exQueueDataStruc.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exQueueDataStruc\bin\Debug\netcoreapp3.1\exQueueDataStruc.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exQueueDataStruc\bin\Debug\netcoreapp3.1\exQueueDataStruc.dll
+E:\_Github\CShap-Tutoral\exQueueDataStruc\bin\Debug\netcoreapp3.1\exQueueDataStruc.pdb
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.Form1.resources
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.dll
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.pdb
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.genruntimeconfig.cache
