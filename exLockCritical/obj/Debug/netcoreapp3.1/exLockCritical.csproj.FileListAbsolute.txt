@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exLockCritical\bin\Debug\netcoreapp3.1\exLockCritical.exe
+E:\_Github\CShap-Tutoral\exLockCritical\bin\Debug\netcoreapp3.1\exLockCritical.deps.json
+E:\_Github\CShap-Tutoral\exLockCritical\bin\Debug\netcoreapp3.1\exLockCritical.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exLockCritical\bin\Debug\netcoreapp3.1\exLockCritical.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exLockCritical\bin\Debug\netcoreapp3.1\exLockCritical.dll
+E:\_Github\CShap-Tutoral\exLockCritical\bin\Debug\netcoreapp3.1\exLockCritical.pdb
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.Form1.resources
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.dll
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.pdb
+E:\_Github\CShap-Tutoral\exLockCritical\obj\Debug\netcoreapp3.1\exLockCritical.genruntimeconfig.cache

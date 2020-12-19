@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "exUser32DLLKeyboardHook/1.0.0": {
+        "runtime": {
+          "exUser32DLLKeyboardHook.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exUser32DLLKeyboardHook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

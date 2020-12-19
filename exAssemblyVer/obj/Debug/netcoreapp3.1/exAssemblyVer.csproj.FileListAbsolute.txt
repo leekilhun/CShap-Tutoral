@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.Title.resources
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exAssemblyVer\bin\Debug\netcoreapp3.1\exAssemblyVer.exe
+E:\_Github\CShap-Tutoral\exAssemblyVer\bin\Debug\netcoreapp3.1\exAssemblyVer.deps.json
+E:\_Github\CShap-Tutoral\exAssemblyVer\bin\Debug\netcoreapp3.1\exAssemblyVer.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exAssemblyVer\bin\Debug\netcoreapp3.1\exAssemblyVer.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exAssemblyVer\bin\Debug\netcoreapp3.1\exAssemblyVer.dll
+E:\_Github\CShap-Tutoral\exAssemblyVer\bin\Debug\netcoreapp3.1\exAssemblyVer.pdb
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.dll
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.pdb
+E:\_Github\CShap-Tutoral\exAssemblyVer\obj\Debug\netcoreapp3.1\exAssemblyVer.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exLinkedList\bin\Debug\netcoreapp3.1\exLinkedList.exe
+E:\_Github\CShap-Tutoral\exLinkedList\bin\Debug\netcoreapp3.1\exLinkedList.deps.json
+E:\_Github\CShap-Tutoral\exLinkedList\bin\Debug\netcoreapp3.1\exLinkedList.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exLinkedList\bin\Debug\netcoreapp3.1\exLinkedList.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exLinkedList\bin\Debug\netcoreapp3.1\exLinkedList.dll
+E:\_Github\CShap-Tutoral\exLinkedList\bin\Debug\netcoreapp3.1\exLinkedList.pdb
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.Form1.resources
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.dll
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.pdb
+E:\_Github\CShap-Tutoral\exLinkedList\obj\Debug\netcoreapp3.1\exLinkedList.genruntimeconfig.cache

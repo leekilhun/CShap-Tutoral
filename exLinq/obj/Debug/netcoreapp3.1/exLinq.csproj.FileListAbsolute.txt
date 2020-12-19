@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exLinq\bin\Debug\netcoreapp3.1\exLinq.exe
+E:\_Github\CShap-Tutoral\exLinq\bin\Debug\netcoreapp3.1\exLinq.deps.json
+E:\_Github\CShap-Tutoral\exLinq\bin\Debug\netcoreapp3.1\exLinq.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exLinq\bin\Debug\netcoreapp3.1\exLinq.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exLinq\bin\Debug\netcoreapp3.1\exLinq.dll
+E:\_Github\CShap-Tutoral\exLinq\bin\Debug\netcoreapp3.1\exLinq.pdb
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.Form1.resources
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.dll
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.pdb
+E:\_Github\CShap-Tutoral\exLinq\obj\Debug\netcoreapp3.1\exLinq.genruntimeconfig.cache

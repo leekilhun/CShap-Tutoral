@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exCodingCode\bin\Debug\netcoreapp3.1\exCodingCode.exe
+E:\_Github\CShap-Tutoral\exCodingCode\bin\Debug\netcoreapp3.1\exCodingCode.deps.json
+E:\_Github\CShap-Tutoral\exCodingCode\bin\Debug\netcoreapp3.1\exCodingCode.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exCodingCode\bin\Debug\netcoreapp3.1\exCodingCode.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exCodingCode\bin\Debug\netcoreapp3.1\exCodingCode.dll
+E:\_Github\CShap-Tutoral\exCodingCode\bin\Debug\netcoreapp3.1\exCodingCode.pdb
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.Form1.resources
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.dll
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.pdb
+E:\_Github\CShap-Tutoral\exCodingCode\obj\Debug\netcoreapp3.1\exCodingCode.genruntimeconfig.cache

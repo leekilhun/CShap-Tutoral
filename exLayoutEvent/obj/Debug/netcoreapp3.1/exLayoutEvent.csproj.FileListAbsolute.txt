@@ -1,0 +1,17 @@
+E:\_Github\CShap-Tutoral\exLayoutEvent\bin\Debug\netcoreapp3.1\exLayoutEvent.exe
+E:\_Github\CShap-Tutoral\exLayoutEvent\bin\Debug\netcoreapp3.1\exLayoutEvent.deps.json
+E:\_Github\CShap-Tutoral\exLayoutEvent\bin\Debug\netcoreapp3.1\exLayoutEvent.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exLayoutEvent\bin\Debug\netcoreapp3.1\exLayoutEvent.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exLayoutEvent\bin\Debug\netcoreapp3.1\exLayoutEvent.dll
+E:\_Github\CShap-Tutoral\exLayoutEvent\bin\Debug\netcoreapp3.1\exLayoutEvent.pdb
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.Form1.resources
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.ucColorMenu.resources
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.ucPanel.resources
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.dll
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.pdb
+E:\_Github\CShap-Tutoral\exLayoutEvent\obj\Debug\netcoreapp3.1\exLayoutEvent.genruntimeconfig.cache
