@@ -1,0 +1,14 @@
+E:\_Github\CShap-Tutoral\exTreeView\bin\Debug\netcoreapp3.1\exTreeView.exe
+E:\_Github\CShap-Tutoral\exTreeView\bin\Debug\netcoreapp3.1\exTreeView.deps.json
+E:\_Github\CShap-Tutoral\exTreeView\bin\Debug\netcoreapp3.1\exTreeView.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exTreeView\bin\Debug\netcoreapp3.1\exTreeView.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exTreeView\bin\Debug\netcoreapp3.1\exTreeView.dll
+E:\_Github\CShap-Tutoral\exTreeView\bin\Debug\netcoreapp3.1\exTreeView.pdb
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.Form1.resources
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.dll
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.pdb
+E:\_Github\CShap-Tutoral\exTreeView\obj\Debug\netcoreapp3.1\exTreeView.genruntimeconfig.cache

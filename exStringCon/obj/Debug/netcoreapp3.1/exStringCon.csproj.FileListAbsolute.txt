@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exStringCon\bin\Debug\netcoreapp3.1\exStringCon.exe
+E:\_Github\CShap-Tutoral\exStringCon\bin\Debug\netcoreapp3.1\exStringCon.deps.json
+E:\_Github\CShap-Tutoral\exStringCon\bin\Debug\netcoreapp3.1\exStringCon.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exStringCon\bin\Debug\netcoreapp3.1\exStringCon.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exStringCon\bin\Debug\netcoreapp3.1\exStringCon.dll
+E:\_Github\CShap-Tutoral\exStringCon\bin\Debug\netcoreapp3.1\exStringCon.pdb
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.Form1.resources
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.dll
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.pdb
+E:\_Github\CShap-Tutoral\exStringCon\obj\Debug\netcoreapp3.1\exStringCon.genruntimeconfig.cache

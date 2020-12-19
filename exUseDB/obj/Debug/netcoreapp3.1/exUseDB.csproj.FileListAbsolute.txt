@@ -1,0 +1,5 @@
+E:\_Github\CShap-Tutoral\exUseDB\obj\Debug\netcoreapp3.1\exUseDB.Form1.resources
+E:\_Github\CShap-Tutoral\exUseDB\obj\Debug\netcoreapp3.1\exUseDB.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exUseDB\obj\Debug\netcoreapp3.1\exUseDB.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exUseDB\obj\Debug\netcoreapp3.1\exUseDB.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exUseDB\obj\Debug\netcoreapp3.1\exUseDB.csproj.CoreCompileInputs.cache
