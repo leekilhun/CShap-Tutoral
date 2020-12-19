@@ -1,0 +1,15 @@
+E:\_Github\CShap-Tutoral\exLambda\bin\Debug\netcoreapp3.1\exLambda.exe
+E:\_Github\CShap-Tutoral\exLambda\bin\Debug\netcoreapp3.1\exLambda.deps.json
+E:\_Github\CShap-Tutoral\exLambda\bin\Debug\netcoreapp3.1\exLambda.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exLambda\bin\Debug\netcoreapp3.1\exLambda.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exLambda\bin\Debug\netcoreapp3.1\exLambda.dll
+E:\_Github\CShap-Tutoral\exLambda\bin\Debug\netcoreapp3.1\exLambda.pdb
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.Form1.resources
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.dll
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.pdb
+E:\_Github\CShap-Tutoral\exLambda\obj\Debug\netcoreapp3.1\exLambda.genruntimeconfig.cache

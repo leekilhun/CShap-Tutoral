@@ -1,0 +1,17 @@
+E:\_Github\CShap-Tutoral\exUserControl\bin\Debug\netcoreapp3.1\exUserControl.exe
+E:\_Github\CShap-Tutoral\exUserControl\bin\Debug\netcoreapp3.1\exUserControl.deps.json
+E:\_Github\CShap-Tutoral\exUserControl\bin\Debug\netcoreapp3.1\exUserControl.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exUserControl\bin\Debug\netcoreapp3.1\exUserControl.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exUserControl\bin\Debug\netcoreapp3.1\exUserControl.dll
+E:\_Github\CShap-Tutoral\exUserControl\bin\Debug\netcoreapp3.1\exUserControl.pdb
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.Form1.resources
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.Properties.Resources.resources
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.UCInfo.resources
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.dll
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.pdb
+E:\_Github\CShap-Tutoral\exUserControl\obj\Debug\netcoreapp3.1\exUserControl.genruntimeconfig.cache
