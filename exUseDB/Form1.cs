@@ -13,8 +13,8 @@ namespace exUseDB
 {
     public partial class Form1 : Form
     {
-        //System.Data.OleDb.
-        System.Data.OleDb.OleDbConnection _conn;
+        //System.Data.OleDb.OleDbPermission.
+        OleDbConnection _conn;
 
         public Form1()
         {
@@ -41,7 +41,7 @@ namespace exUseDB
             DataSet ds = new DataSet();
 
 
-            System.Data.OleDb.OleDbDataAdapter adp = new OleDbDataAdapter(Query, _conn);
+            OleDbDataAdapter adp = new OleDbDataAdapter(Query, _conn);
             adp.Fill(ds);
 
             // 가져온 데이타를 DataGridView 컨트롤에 바인딩

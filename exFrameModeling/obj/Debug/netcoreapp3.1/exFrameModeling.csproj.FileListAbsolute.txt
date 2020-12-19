@@ -1,0 +1,17 @@
+E:\_Github\CShap-Tutoral\exFrameModeling\bin\Debug\netcoreapp3.1\exFrameModeling.exe
+E:\_Github\CShap-Tutoral\exFrameModeling\bin\Debug\netcoreapp3.1\exFrameModeling.deps.json
+E:\_Github\CShap-Tutoral\exFrameModeling\bin\Debug\netcoreapp3.1\exFrameModeling.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exFrameModeling\bin\Debug\netcoreapp3.1\exFrameModeling.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exFrameModeling\bin\Debug\netcoreapp3.1\exFrameModeling.dll
+E:\_Github\CShap-Tutoral\exFrameModeling\bin\Debug\netcoreapp3.1\exFrameModeling.pdb
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.Form1.resources
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.ucPanel.ucScreen1.resources
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.ucPanel.ucScreen2.resources
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.ucPanel.ucScreen3.resources
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.csproj.GenerateResource.cache
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.dll
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.pdb
+E:\_Github\CShap-Tutoral\exFrameModeling\obj\Debug\netcoreapp3.1\exFrameModeling.genruntimeconfig.cache
