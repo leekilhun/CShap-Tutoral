@@ -12,3 +12,4 @@ E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStr
 E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.dll
 E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.pdb
 E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.genruntimeconfig.cache
+E:\_Github\CShap-Tutoral\exQueueDataStruc\obj\Debug\netcoreapp3.1\exQueueDataStruc.csprojAssemblyReference.cache

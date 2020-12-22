@@ -18,12 +18,18 @@ namespace exQueueDataStruc
         Queue<int> _Queue = new Queue<int>(6);  // Queue를 선언 및 초기화
         Stack<int> _Stack = new Stack<int>(6);  // Stack을 선언 및 초기화
 
+        private Queue<Qdata> _Questr;
+
+        public Queue<string> _Que; //
+
         /// <summary>
         /// 진입점
         /// </summary>
         public Form1()
         {
             InitializeComponent();
+            _Questr = new Queue<Qdata>(2000);
+            _Que = new Queue<string>(1000);
         }
 
 
@@ -40,7 +46,13 @@ namespace exQueueDataStruc
             //Queue에 Data를 입력
             if (_Queue.Count < 6)
             {
+                Qdata Qdc = new Qdata();
+                Qdc.No = 10+ iData;
+                Qdc.Str = string.Format("Name - [{0}]", iData);
+
                 _Queue.Enqueue(iData);
+                _Que.Enqueue(iData.ToString());
+                _Questr.Enqueue(Qdc);
                 fQueueDataDisplay();
             }
 
