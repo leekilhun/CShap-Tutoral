@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workFrame.SimComponents
+namespace workFrame.modules
 {
     /// <summary>
     /// 기본 클래스
     /// </summary>
-    class CBase
+    public class CBase
     {
         public string strName;  // 이름
         protected Pen _Pen;     // 펜

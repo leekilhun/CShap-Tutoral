@@ -6,29 +6,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workFrame.SimComponents
+namespace workFrame.modules
 {
     /// <summary>
     /// CBase를 상속 받은 Robot 클래스
     /// </summary>
-    class CDoor : CBase
+    public class CDoor : CBase
     {
         public Rectangle _rtDoorSide;  // Door 테두리
         public Rectangle _rtDoor;  // Door
+        MCylinder _DoorCylUpDown;
+
 
         /// <summary>
         /// 생성자
         /// </summary>
         /// <param name="sName"></param>
-        public CDoor(string sName)
+        public CDoor(string sName , MCylinder cyl)
         {
             strName = sName;  // 클래스를 생성 할 때 이름을 가져와서 strName에 넣어 줌
+            _DoorCylUpDown = cyl;
+
             _Pen = new Pen(Color.WhiteSmoke, 3);  // 펜에 대한 색상과 굵기를 설정
             _Brush = new SolidBrush(Color.WhiteSmoke);  // 내부를 채울 색상
 
             _rtDoorSide = new Rectangle(10, 70, 20, 60);  // 시작은 같은 위치여도 상관 없을 듯
             _rtDoor = new Rectangle(10, 70, 20, 60);
-            
+
+
         }
 
         /// <summary>
@@ -45,6 +50,14 @@ namespace workFrame.SimComponents
             return _Brush;
         }
 
+        public void Initialize()
+        {
+            _Pen = new Pen(Color.WhiteSmoke, 3);  // 펜에 대한 색상과 굵기를 설정
+            _Brush = new SolidBrush(Color.WhiteSmoke);  // 내부를 채울 색상
+
+            _rtDoorSide = new Rectangle(10, 70, 20, 60);  // 시작은 같은 위치여도 상관 없을 듯
+            _rtDoor = new Rectangle(10, 70, 20, 60);
+        }
 
         #region Door 만 위아래로 이동 필요
 

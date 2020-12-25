@@ -5,9 +5,6 @@ E:\_Github\CShap-Tutoral\_workFrame\bin\Debug\netcoreapp3.1\_workFrame.runtimeco
 E:\_Github\CShap-Tutoral\_workFrame\bin\Debug\netcoreapp3.1\_workFrame.dll
 E:\_Github\CShap-Tutoral\_workFrame\bin\Debug\netcoreapp3.1\_workFrame.pdb
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.MainForm.resources
-E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.ucPanel.ucScreen1.resources
-E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.ucPanel.ucScreen2.resources
-E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.ucPanel.ucScreen3.resources
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.csproj.GenerateResource.cache
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.AssemblyInfoInputs.cache
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.AssemblyInfo.cs
@@ -15,5 +12,6 @@ E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.csproj.Co
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.dll
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.pdb
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.genruntimeconfig.cache
-E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.csprojAssemblyReference.cache
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.form.formAuto.resources
+E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.form.formManual.resources
+E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.csprojAssemblyReference.cache

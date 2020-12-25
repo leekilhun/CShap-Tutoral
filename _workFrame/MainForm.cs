@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
@@ -10,17 +11,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using workFrame.form;
+using workFrame.modules;
 
 namespace workFrame
 {
     public partial class MainForm : Form
     {
         #region 전역 변수
-        ucPanel.ucScreen1 ucSc1 = new ucPanel.ucScreen1(); // 화면1 
-        ucPanel.ucScreen2 ucSc2 = new ucPanel.ucScreen2(); // 화면2
-        ucPanel.ucScreen3 ucSc3 = new ucPanel.ucScreen3(); // 화면3
 
-        formAuto fAuto = new formAuto();
+        private static CRobot mRobot;  // Robot Class
+        private static CDoor mDoor1, mDoor2;  // Door Class
+
+
+        public static CRobot MRobot { get => mRobot; }
+        public static CDoor MDoor1 { get => mDoor1; }
+        public static CDoor MDoor2 { get => mDoor2; }
+
+
+        private formAuto fAuto = new formAuto();
+        private formManual fManual = new formManual();
+        
+        private Form currentChildForm;
+
+        private MCylinder[] Cylinder;
+
         #endregion
 
         public MainForm()
@@ -31,37 +45,119 @@ namespace workFrame
         #region Form Event
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Form Load 시점에 Class 생성
 
-            ucSc1.eLogSender += UcSc_eLogSender;   // 화면 1 Delegate Event
-            ucSc2.eLogSender += UcSc_eLogSender;   // 화면 1 Delegate Event
-            ucSc3.eLogSender += UcSc_eLogSender;   // 화면 1 Delegate Event
+            fAuto.eLogSender += UcSc_eLogSender;
+            fManual.eLogSender += UcSc_eLogSender;
 
-            Version oVersion = Assembly.GetEntryAssembly().GetName().Version;
-            this.Text = string.Format("{0} Ver.{1}.{2} / Build Time ({3}) - {4}", "Machine Control Panel", oVersion.Major, oVersion.Minor, GetBuildDataTime(oVersion), "프로그램 상태");
-                        
-            GetBuildDataTime(oVersion);
+            writeProgramInfor();           
 
-
-            pMain.Controls.Add(fAuto);
+            Initial();
+            OpenChildForm(fAuto);
         }
 
+        #region 테스트 하는 곳
 
+        private int factor;
+
+
+        //public CRobot GetCRobot () 
+        //{ 
+        //    return mRobot;
+        //}
+
+        public void Example(int f)
+        {
+            factor = f;
+        }
+
+        public int SampleMethod(int x)
+        {
+            Console.WriteLine("\nExample.SampleMethod({0}) executes.", x);
+            return x * factor;
+        }
+
+        #endregion //테스트
+        private void writeProgramInfor()
+        {
+            Assembly assem = typeof(MainForm).Assembly;            
+
+            Version oVersion = assem.GetName().Version;
+
+            Console.WriteLine("Assembly Full Name:");
+            Console.WriteLine(assem.FullName);
+
+            // The AssemblyName type can be used to parse the full name.
+            AssemblyName assemName = assem.GetName();
+            Console.WriteLine("\nName: {0}", assemName.Name);
+            Console.WriteLine("Version: {0}.{1}", assemName.Version.Major, assemName.Version.Minor);
+
+            Console.WriteLine("\nAssembly CodeBase:");
+            Console.WriteLine(assem.CodeBase);
+
+            // Create an object from the assembly, passing in the correct number
+            // and type of arguments for the constructor.
+            Object o = assem.CreateInstance("workFrame.MainForm.Example", false,
+                BindingFlags.ExactBinding,
+                null, new Object[] { 2 }, null, null);
+
+            // Make a late-bound call to an instance method of the object.
+            Type t = assem.GetType("workFrame.MainForm");
+            MethodInfo m = t.GetMethod("SampleMethod");
+
+            Console.WriteLine("\nAssembly entry point:");
+            Console.WriteLine(assem.EntryPoint);
+
+            this.Text = string.Format("{0} Ver.{1}.{2} / Build Time ({3}) - {4}", "Machine Control Panel", oVersion.Major, oVersion.Minor, GetBuildDataTime(oVersion), "프로그램 상태");
+
+            GetBuildDataTime(oVersion);
+
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
         private void Initial()
         {
-            CylData[] cData = new CylData[2]
-            {
-                new CylData( 1,1,"test"),
-                new CylData( 2,2,"name")
-            };
+            //CylData[] cData = new CylData[2]
+            //{
+            //    new CylData( 1,1,"LeftDoorUpDown"),
+            //    new CylData( 2,2,"RightDoorUpDown")
+            //};
 
             CylinderData[] cDataClass = new CylinderData[2]
             {
-                new CylinderData( 1,1,"test"),
-                new CylinderData( 2,2,"name")
+                new CylinderData( cylinder.LeftDoor_UpDown,cylinder.LeftDoor_UpDown.ToString(),11,12,1.0,1.5),
+                new CylinderData( cylinder.RightDoor_UPDown,cylinder.RightDoor_UPDown.ToString(),21,22,1.0,1.5)
             };
 
+
+            Cylinder = new MCylinder[2]
+            {
+                new MCylinder(1,cDataClass[0]),
+                new MCylinder(2,cDataClass[1])
+            };
+
+
+            mRobot = new CRobot("Robot");
+           // fAuto.
+            mDoor1 = new CDoor("DoorLeft", Cylinder[0]);
+            mDoor2 = new CDoor("DoorRight", Cylinder[1]);
+
+
         }
+
         
+        private void assignComponents()
+        {
+
+        }
 
     
 
@@ -91,7 +187,23 @@ namespace workFrame
             return dtBuildDate;
         }
 
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentChildForm != null)
+            {
+                currentChildForm.Hide();
+            }
+            currentChildForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            pMain.Controls.Add(childForm);
+            pMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
 
+
+        }
 
 
         // Main 화면 Button Click Event (동일 Event로 받고 코드 상에서 분기 처리)
@@ -102,16 +214,16 @@ namespace workFrame
             switch (btn.Name)
             {
                 case "BtnSc1":
-                    pMain.Controls.Clear();
-                    pMain.Controls.Add(ucSc1);
+                    //pMain.Controls.Clear();
+                    OpenChildForm(fAuto);
                     break;
                 case "BtnSc2":
-                    pMain.Controls.Clear();
-                    pMain.Controls.Add(ucSc2);
+                    //pMain.Controls.Clear();
+                    OpenChildForm(fManual);
                     break;
                 case "BtnSc3":
-                    pMain.Controls.Clear();
-                    pMain.Controls.Add(ucSc3);
+                   // pMain.Controls.Clear();
+                    //pMain.Controls.Add(ucSc3);
                     break;
                 case "BtnExit":
                     Application.Exit();
@@ -132,17 +244,53 @@ namespace workFrame
         #endregion
 
 
+
+
+
+
+
+
+
+
         #region Log OverLoading
         private void Log(enLogLevel eLevel, string LogDesc)
         {
-            DateTime dTime = DateTime.Now;
-            string LogInfo = $"{dTime:yyyy-MM-dd hh:mm:ss.fff} [{eLevel.ToString()}] {LogDesc}";
-            lboxLog.Items.Insert(0, LogInfo);
+            if (this.InvokeRequired)   // 요청 한 Thread가 현재 Main Thread 있는 Contorl을 엑세스 할 수 있는지 확인
+            {
+
+                this.Invoke(new Action(delegate ()
+                {
+                    DateTime dTime = DateTime.Now;
+                    string LogInfo = $"{dTime:yyyy-MM-dd hh:mm:ss.fff} [{eLevel.ToString()}] {LogDesc}";
+                    lboxLog.Items.Insert(0, LogInfo);
+                }));
+            }
         }
+
+      
+
         private void Log(DateTime dTime, enLogLevel eLevel, string LogDesc)
         {
-            string LogInfo = $"{dTime:yyyy-MM-dd hh:mm:ss.fff} [{eLevel.ToString()}] {LogDesc}";
-            lboxLog.Items.Insert(0, LogInfo);
+            /**
+            if (this.InvokeRequired)   // 요청 한 Thread가 현재 Main Thread 있는 Contorl을 엑세스 할 수 있는지 확인
+            {
+
+                this.Invoke(new Action(delegate ()
+                {
+                   ///
+                }));
+            }
+            **/
+            if (this.InvokeRequired)   // 요청 한 Thread가 현재 Main Thread 있는 Contorl을 엑세스 할 수 있는지 확인
+            {
+
+                this.Invoke(new Action(delegate ()
+                {
+                    string LogInfo = $"{dTime:yyyy-MM-dd hh:mm:ss.fff} [{eLevel.ToString()}] {LogDesc}";
+                    lboxLog.Items.Insert(0, LogInfo);
+                }));
+            }
+            
         }
         #endregion
 

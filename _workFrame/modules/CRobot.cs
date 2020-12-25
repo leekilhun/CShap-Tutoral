@@ -6,16 +6,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workFrame.SimComponents
+namespace workFrame.modules
 {
     /// <summary>
     /// CBase를 상속 받은 Robot 클래스
     /// </summary>
-    class CRobot : CBase
+    public class CRobot : CBase
     {
         public Rectangle _rtCircle_Robot;  // Robot 몸통
         public Rectangle _rtSquare_Arm;  // Robot 팔
         public Rectangle _rtSquare_Object;  // Robot이 가지고 움직 일 물건
+
+        public CRobot()
+        {
+        }
 
         /// <summary>
         /// 생성자
@@ -47,6 +51,16 @@ namespace workFrame.SimComponents
             return _Brush;
         }
 
+        public void Initialize()
+        {
+            _Pen = new Pen(Color.WhiteSmoke, 3);  // 펜에 대한 색상과 굵기를 설정
+            _Brush = new SolidBrush(Color.WhiteSmoke);  // 내부를 채울 색상
+
+            _rtCircle_Robot = new Rectangle(50, 50, 100, 100);  // 몸통에 대한 위치 및 크기를 설정
+            _rtSquare_Arm = new Rectangle(40, 90, 80, 20);  // 팔에 대한 위치 및 크기를 설정
+            _rtSquare_Object = new Rectangle(20, 80, 20, 40);
+
+        }
 
         #region Robot 몸통은 회전, 팔을 회전 이동 필요
 

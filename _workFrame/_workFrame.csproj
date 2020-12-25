@@ -1,12 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="form\formManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="form\formAuto.cs">
       <SubType>Form</SubType>
     </Compile>

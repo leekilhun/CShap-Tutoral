@@ -6,39 +6,36 @@ using System.Threading.Tasks;
 
 namespace workFrame
 {
-     class CylinderData
-     {
-        ushort ID;
-        ushort NO;
-        string Name;
-        CylinderData()
-        {
-
-        }
-        public CylinderData(ushort id, ushort no, string name)
-        {
-            this.ID = id;
-            this.NO = no;
-            this.Name = name;
-        }
-
-
-    }
-
-    public struct CylData
+    public enum cylinder
     {
-        ushort ID;
-        ushort NO;
-        string Name;
-        
-        public CylData(ushort id, ushort no, string name)
-        {
-            this.ID = id;
-            this.NO = no;
-            this.Name = name;
-        }
+        unknow,
+        LeftDoor_UpDown,
+        RightDoor_UPDown,
+    }
+    public class CylinderData
+    {
+       public cylinder ID;
+       public string Name;
+       public ushort[] sensor = new ushort[2];
+       public double[] settime = new double[2];
+           
+       CylinderData()
+       {
+
+       }
+       public CylinderData(cylinder id, string name, ushort sen1, ushort sen2, double tim1, double tim2)
+       {
+           this.ID = id;
+           this.Name = name;
+           sensor[0] = sen1;
+           sensor[1] = sen2;
+           settime[0] = tim1;
+           settime[1] = tim2;
+       }
+
 
     }
+
 
     class cGlobal
     {
