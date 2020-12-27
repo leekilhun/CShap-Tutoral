@@ -38,6 +38,7 @@ namespace workFrame.form
             this.btnRobotR = new System.Windows.Forms.Button();
             this.btnD2Close = new System.Windows.Forms.Button();
             this.btnRobotRotate = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -138,12 +139,22 @@ namespace workFrame.form
             this.btnRobotRotate.Text = "Robot Rotate";
             this.btnRobotRotate.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Purple;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(773, 5);
+            this.panel1.TabIndex = 15;
+            // 
             // formManual
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(773, 615);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -165,6 +176,7 @@ namespace workFrame.form
         private System.Windows.Forms.Button btnRobotR;
         private System.Windows.Forms.Button btnD2Close;
         private System.Windows.Forms.Button btnRobotRotate;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

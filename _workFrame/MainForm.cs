@@ -24,14 +24,17 @@ namespace workFrame
 
 
         public static CRobot MRobot { get => mRobot; }
-        public static CDoor MDoor1 { get => mDoor1; }
-        public static CDoor MDoor2 { get => mDoor2; }
+        public static CDoor MDoor1  { get => mDoor1; }
+        public static CDoor MDoor2  { get => mDoor2; }
 
 
-        private formAuto fAuto = new formAuto();
+        private formAuto fAuto =    new formAuto();
         private formManual fManual = new formManual();
-        
+        private formData fData = new formData();
+
         private Form currentChildForm;
+
+        public static bool[] Flags = new bool[1028];
 
         private MCylinder[] Cylinder;
 
@@ -49,6 +52,7 @@ namespace workFrame
 
             fAuto.eLogSender += UcSc_eLogSender;
             fManual.eLogSender += UcSc_eLogSender;
+            fData.eLogSender += UcSc_eLogSender;
 
             writeProgramInfor();           
 
@@ -222,8 +226,9 @@ namespace workFrame
                     OpenChildForm(fManual);
                     break;
                 case "BtnSc3":
-                   // pMain.Controls.Clear();
+                    // pMain.Controls.Clear();
                     //pMain.Controls.Add(ucSc3);
+                    OpenChildForm(fData);
                     break;
                 case "BtnExit":
                     Application.Exit();

@@ -15,3 +15,4 @@ E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.genruntim
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.form.formAuto.resources
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.form.formManual.resources
 E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\_workFrame.csprojAssemblyReference.cache
+E:\_Github\CShap-Tutoral\_workFrame\obj\Debug\netcoreapp3.1\workFrame.form.formData.resources

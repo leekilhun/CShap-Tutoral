@@ -101,7 +101,7 @@ namespace workFrame
             this.BtnSc1.Name = "BtnSc1";
             this.BtnSc1.Size = new System.Drawing.Size(74, 46);
             this.BtnSc1.TabIndex = 0;
-            this.BtnSc1.Text = "Input";
+            this.BtnSc1.Text = "Auto";
             this.BtnSc1.UseVisualStyleBackColor = true;
             this.BtnSc1.Click += new System.EventHandler(this.button_Click);
             // 
@@ -113,7 +113,7 @@ namespace workFrame
             this.BtnSc2.Name = "BtnSc2";
             this.BtnSc2.Size = new System.Drawing.Size(74, 46);
             this.BtnSc2.TabIndex = 1;
-            this.BtnSc2.Text = "Chart";
+            this.BtnSc2.Text = "Manual";
             this.BtnSc2.UseVisualStyleBackColor = true;
             this.BtnSc2.Click += new System.EventHandler(this.button_Click);
             // 
@@ -125,7 +125,7 @@ namespace workFrame
             this.BtnSc3.Name = "BtnSc3";
             this.BtnSc3.Size = new System.Drawing.Size(74, 46);
             this.BtnSc3.TabIndex = 2;
-            this.BtnSc3.Text = "Config";
+            this.BtnSc3.Text = "Data";
             this.BtnSc3.UseVisualStyleBackColor = true;
             this.BtnSc3.Click += new System.EventHandler(this.button_Click);
             // 

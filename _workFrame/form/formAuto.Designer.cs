@@ -40,6 +40,7 @@ namespace workFrame.form
             this.pDoor2 = new System.Windows.Forms.Panel();
             this.pDoor1 = new System.Windows.Forms.Panel();
             this.pRobot = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -160,12 +161,22 @@ namespace workFrame.form
             this.pRobot.Size = new System.Drawing.Size(200, 250);
             this.pRobot.TabIndex = 1;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(773, 5);
+            this.panel1.TabIndex = 15;
+            // 
             // formAuto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(773, 615);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
@@ -194,6 +205,7 @@ namespace workFrame.form
         private System.Windows.Forms.Panel pDoor2;
         private System.Windows.Forms.Panel pDoor1;
         private System.Windows.Forms.Panel pRobot;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

@@ -6,6 +6,41 @@ using System.Threading.Tasks;
 
 namespace workFrame
 {
+
+    public enum AddrInput
+    {
+        Port_1 = 10000,
+        Port_2,
+        Port_3,
+        port_4,
+        Port_5,
+        Port_6,
+        Port_7,
+    }
+
+    public enum AddrOutput
+    {
+        Port_1 = 30000,
+        Port_2,
+        Port_3,
+        port_4,
+        Port_5,
+        Port_6,
+        Port_7,
+    }
+
+    public enum flags
+    {
+        Status_1 = 0,
+        Status_2,
+        Status_3,
+        Status_4,
+        Status_5,
+        Status_6,
+        Status_7,
+    }
+
+
     public enum cylinder
     {
         unknow,

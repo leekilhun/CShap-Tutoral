@@ -13,9 +13,12 @@ namespace workFrame.modules
     /// </summary>
     public class CDoor : CBase
     {
-        public Rectangle _rtDoorSide;  // Door 테두리
-        public Rectangle _rtDoor;  // Door
+        private Rectangle _rtDoorSide;  // Door 테두리
+        private Rectangle _rtDoor;  // Door
         MCylinder _DoorCylUpDown;
+
+        public Rectangle RtDoorSide { get => _rtDoorSide; set => _rtDoorSide = value; }
+        public Rectangle RtDoor { get => _rtDoor; set => _rtDoor = value; }
 
 
         /// <summary>

@@ -73,19 +73,19 @@ namespace workFrame.form
 
                 Graphics g = pRobot.CreateGraphics();
 
-                g.FillEllipse(_cRobot.fBrushInfo(), _cRobot._rtCircle_Robot);
+                g.FillEllipse(_cRobot.fBrushInfo(), _cRobot.RtCircle_Robot);
 
                 _cRobot.fMove(iRobot_Arm_Move);
 
                 Point center = new Point(100, 100);
                 g.Transform = GetMatrix(center, iRotate);
 
-                g.DrawRectangle(_cRobot.fPenInfo(), _cRobot._rtSquare_Arm);
+                g.DrawRectangle(_cRobot.fPenInfo(), _cRobot.RtSquare_Arm);
 
                 // Object가 있을 경우 표시 하고 없을 경우 표시 하지 않음
                 if (isObject)
                 {
-                    g.FillRectangle(_cRobot.fBrushInfo(), _cRobot._rtSquare_Object);
+                    g.FillRectangle(_cRobot.fBrushInfo(), _cRobot.RtSquare_Object);
                 }
             }));
         }
@@ -104,8 +104,8 @@ namespace workFrame.form
 
                 Graphics g = pDoor1.CreateGraphics();
 
-                g.FillRectangle(_cDoor1.fBrushInfo(), _cDoor1._rtDoor);
-                g.DrawRectangle(_cDoor1.fPenInfo(), _cDoor1._rtDoorSide);
+                g.FillRectangle(_cDoor1.fBrushInfo(), _cDoor1.RtDoor);
+                g.DrawRectangle(_cDoor1.fPenInfo(), _cDoor1.RtDoorSide);
             }));
         }
 
@@ -123,8 +123,8 @@ namespace workFrame.form
 
                 Graphics g = pDoor2.CreateGraphics();
 
-                g.FillRectangle(_cDoor2.fBrushInfo(), _cDoor2._rtDoor);
-                g.DrawRectangle(_cDoor2.fPenInfo(), _cDoor2._rtDoorSide);
+                g.FillRectangle(_cDoor2.fBrushInfo(), _cDoor2.RtDoor);
+                g.DrawRectangle(_cDoor2.fPenInfo(), _cDoor2.RtDoorSide);
             }));
         }
 
