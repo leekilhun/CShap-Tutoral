@@ -1,0 +1,12 @@
+E:\_Github\CShap-Tutoral\exInterlockedClass\bin\Debug\netcoreapp3.1\exInterlockedClass.exe
+E:\_Github\CShap-Tutoral\exInterlockedClass\bin\Debug\netcoreapp3.1\exInterlockedClass.deps.json
+E:\_Github\CShap-Tutoral\exInterlockedClass\bin\Debug\netcoreapp3.1\exInterlockedClass.runtimeconfig.json
+E:\_Github\CShap-Tutoral\exInterlockedClass\bin\Debug\netcoreapp3.1\exInterlockedClass.runtimeconfig.dev.json
+E:\_Github\CShap-Tutoral\exInterlockedClass\bin\Debug\netcoreapp3.1\exInterlockedClass.dll
+E:\_Github\CShap-Tutoral\exInterlockedClass\bin\Debug\netcoreapp3.1\exInterlockedClass.pdb
+E:\_Github\CShap-Tutoral\exInterlockedClass\obj\Debug\netcoreapp3.1\exInterlockedClass.AssemblyInfoInputs.cache
+E:\_Github\CShap-Tutoral\exInterlockedClass\obj\Debug\netcoreapp3.1\exInterlockedClass.AssemblyInfo.cs
+E:\_Github\CShap-Tutoral\exInterlockedClass\obj\Debug\netcoreapp3.1\exInterlockedClass.csproj.CoreCompileInputs.cache
+E:\_Github\CShap-Tutoral\exInterlockedClass\obj\Debug\netcoreapp3.1\exInterlockedClass.dll
+E:\_Github\CShap-Tutoral\exInterlockedClass\obj\Debug\netcoreapp3.1\exInterlockedClass.pdb
+E:\_Github\CShap-Tutoral\exInterlockedClass\obj\Debug\netcoreapp3.1\exInterlockedClass.genruntimeconfig.cache
