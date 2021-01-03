@@ -1,0 +1,13 @@
+E:\_Github\exMonitor\bin\Debug\netcoreapp3.1\exMonitor.exe
+E:\_Github\exMonitor\bin\Debug\netcoreapp3.1\exMonitor.deps.json
+E:\_Github\exMonitor\bin\Debug\netcoreapp3.1\exMonitor.runtimeconfig.json
+E:\_Github\exMonitor\bin\Debug\netcoreapp3.1\exMonitor.runtimeconfig.dev.json
+E:\_Github\exMonitor\bin\Debug\netcoreapp3.1\exMonitor.dll
+E:\_Github\exMonitor\bin\Debug\netcoreapp3.1\exMonitor.pdb
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.csprojAssemblyReference.cache
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.AssemblyInfoInputs.cache
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.AssemblyInfo.cs
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.csproj.CoreCompileInputs.cache
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.dll
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.pdb
+E:\_Github\exMonitor\obj\Debug\netcoreapp3.1\exMonitor.genruntimeconfig.cache

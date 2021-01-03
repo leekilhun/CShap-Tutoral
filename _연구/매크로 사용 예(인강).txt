@@ -1,0 +1,46 @@
+1. 삼항식을 매크로
+#define max (A,B) ((A)) > (B) ? (A) : (B))  -> 입력  A > B 참이면 A 리턴,  거짓이면 B리턴
+
+2. 인자 표현식을 큰따옴표로 묶어 표현
+# define dprint(expr) printf(#expr "=%d\n", expr)
+ ....
+ dprint(max(ia, ib)); 
+  // printf(#expr "=%d\n",((A) > (B) ? (A) : (B))
+  // printf("max(ia, ib) = %d\n",((A) > (B) ? (A) : (B)))
+
+
+3. 문자 연결
+ #define paste (front, back) front ## back
+
+ printf("%d", paste(ia, ib));
+  // printf(%d", iaib);
+
+4.여러줄 표현시 역슬래쉬 
+ #define PRT3(x) printf("%d\n", x-1); \
+	          printf("%d\n", x); \	
+	          printf("%d\n", x + 1); 
+
+5. 시스템 내장 매크로 (predefined macro)
+int main (void)
+{
+    printf("__LINE__=%d\n", __LINE__);
+    printf("__DATE__=%s\n", __DATE__);
+    printf("__LINE__=%d\n", __LINE__);
+    printf("__TIME__=%s\n", __TIME__);
+    printf("__TIMESTAMP__=%d\n", __TIMESTAMP__);
+    printf("__FILE__=%s\n", __FILE__);
+
+    return 0 ;
+
+}
+
+결과
+ __LINE__ = 4
+__DATE__ = Apr 10 2020
+__LINE__ = 6
+__TIME__ = 21:28:57
+__TIMESTAMP__ = Fri Apr 10 21:28:57 2020
+__FILE_ = C:\users\hsh\source\Project\ch5.c
+
+
+

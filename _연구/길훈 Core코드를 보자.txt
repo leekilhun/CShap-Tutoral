@@ -1,0 +1,442 @@
+-------------------------------------------------------
+@ MarlinCore.h 
+#include "inc/MarlinConfig.h"
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+void stop();
+// Pass true to keep steppers from timing out
+void idle(......); }
+//The axis order in all axis related arrays is X, Y, Z, E
+void enable_e_steppers();
+void enable_all_steppers();
+void disable_e_stepper(const uint8_t e);
+void disable_e_steppers();
+void disable_all_steppers();
+void kill(.....);
+void minkill(const bool steppers_off=false);
+void quickstop_stepper();
+
+extern MarlinState marlin_state; // static 전역으로 상태 변수를 
+inline bool IsRunning() { return marlin_state == MF_RUNNING; }
+inline bool IsStopped() { return marlin_state != MF_RUNNING; }
+
+bool printingIsActive();
+bool printingIsPaused();
+void startOrResumeJob();
+
+extern bool wait_for_heatup; // 온도
+void wait_for_user_response(.....);
+
+bool pin_is_protected(const pin_t pin);
+void protected_pin_err();
+
+
+
+---------------------------------------------------------
+@ MarlinCore.cpp 
+#include "MarlinCore.h"
+#include "HAL/shared/Delay.h"
+#include "HAL/shared/esp_wifi.h"
+  
+#include <math.h>
+#include "core/utility.h"
+#include "module/motion.h"
+#include "module/planner.h"
+#include "module/endstops.h"
+#include "module/temperature.h"
+#include "module/settings.h"
+#include "module/printcounter.h" // PrintCounter or Stopwatch
+
+#include "module/stepper.h"
+#include "module/stepper/indirection.h"
+
+#include "gcode/gcode.h"
+#include "gcode/parser.h"
+#include "gcode/queue.h"
+
+#include "sd/cardreader.h"
+#include "lcd/ultralcd.h"
+#include "libs/buzzer.h"
+CardReader card;  //sd card class 
+#include "feature/bedlevel/bedlevel.h"
+#include "feature/pause.h"
+MarlinState marlin_state = MF_INITIALIZING;
+bool wait_for_heatup = true;
+bool wait_for_user; // = false;
+
+void wait_for_user_response(.....);
+{
+  TERN(....);
+  KEEPALIVE_STATE(); 
+  wait_for_user = true;
+  if (ms) ms += millis(); // expire time
+  while (wait_for_user && !(ms && ELAPSED(....)))
+  idle(TERN_(....));
+  wait_for_user = false;
+}   
+
+
+#include "pins/sensitive_pins.h"
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wnarrowing"
+
+bool pin_is_protected(const pin_t pin) 
+{
+  static const pin_t sensitive_pins[] PROGMEM = SENSITIVE_PINS;
+  LOOP_L_N(i, COUNT(sensitive_pins)) 
+  {
+    pin_t sensitive_pin;
+    memcpy_P(.......);
+    if (pin == sensitive_pin) return true;
+  }
+  return false;
+}
+
+#pragma GCC diagnostic pop
+void protected_pin_err() 
+{
+  SERIAL_ERROR_MSG(STR_ERR_PROTECTED_PIN);
+}
+
+void quickstop_stepper() 
+{
+  planner.quick_stop();
+  planner.synchronize();
+  set_current_from_steppers_for_axis(ALL_AXES);
+  sync_plan_position();
+}
+
+void enable_e_steppers() 
+{
+  #define _ENA_E(N) ENABLE_AXIS_E##N();
+  REPEAT(E_STEPPERS, _ENA_E)
+}
+
+void enable_all_steppers() 
+{
+  TERN_(.....);
+  ENABLE_AXIS_X();
+  ENABLE_AXIS_Y();
+  ENABLE_AXIS_Z();
+  enable_e_steppers();
+}
+
+void disable_e_steppers() 
+{
+  #define _DIS_E(N) DISABLE_AXIS_E##N();
+  REPEAT(E_STEPPERS, _DIS_E)
+}
+
+
+void disable_e_stepper(const uint8_t e) 
+{
+  #define _CASE_DIS_E(N) case N: DISABLE_AXIS_E##N(); break;
+  switch (e) 
+  {
+    REPEAT(EXTRUDERS, _CASE_DIS_E)
+  }
+}
+
+void disable_e_stepper(const uint8_t e) 
+{
+  #define _CASE_DIS_E(N) case N: DISABLE_AXIS_E##N(); break;
+  switch (e) {
+    REPEAT(EXTRUDERS, _CASE_DIS_E)
+  }
+}
+
+void disable_all_steppers() 
+{
+  DISABLE_AXIS_X();
+  DISABLE_AXIS_Y();
+  DISABLE_AXIS_Z();
+  disable_e_steppers();
+}
+
+bool printJobOngoing() 
+{
+  return print_job_timer.isRunning() || IS_SD_PRINTING();
+}
+
+bool printingIsActive() 
+{
+  return !did_pause_print && (print_job_timer.isRunning() || IS_SD_PRINTING());
+}
+
+bool printingIsPaused() 
+{
+  return did_pause_print || print_job_timer.isPaused() || IS_SD_PAUSED();
+}
+
+void startOrResumeJob() 
+{
+  if (!printingIsPaused()) 
+  {
+    TERN_(.....);
+    TERN_(.....);
+    #if BOTH(.....)
+      ui.reset_remaining_time();
+    #endif
+  }
+  print_job_timer.start();
+}
+
+
+#if ENABLED(SDSUPPORT)
+
+  inline void abortSDPrinting() 
+  {
+    card.endFilePrint(TERN_(.....));
+    queue.clear();
+    quickstop_stepper();
+    print_job_timer.stop();
+    #if DISABLED(SD_ABORT_NO_COOLDOWN)
+      thermalManager.disable_all_heaters();
+    #endif
+    #if !HAS_CUTTER
+      thermalManager.zero_fan_speeds();
+    #else
+      cutter.kill(); // Full cutter shutdown including ISR control
+    #endif
+    wait_for_heatup = false;
+    TERN_(.....);
+    #ifdef EVENT_GCODE_SD_ABORT
+      queue.inject_P(.....);
+    #endif
+
+    TERN_(..., password.lock_machine());
+  }
+
+  inline void finishSDPrinting() 
+  {
+    if (queue.enqueue_one_P(PSTR("M1001"))) 
+    {
+      marlin_state = MF_RUNNING;
+      TERN_(..., password.lock_machine());
+    }
+  }
+
+inline void manage_inactivity(.....) 
+{
+  if (queue.length < BUFSIZE) queue.get_available_commands();
+  const millis_t ms = millis();
+  const bool parked_or_ignoring = ignore_stepper_queue ||
+     (BOTH(....) && did_pause_print);
+  if (parked_or_ignoring) gcode.reset_stepper_timeout(ms);
+  if (gcode.stepper_max_timed_out(ms)) 
+  {
+    SERIAL_ERROR_START();
+    SERIAL_ECHOLNPAIR(.....);
+    kill();
+  }
+  if (gcode.stepper_inactive_time) 
+  {
+    static bool already_shutdown_steppers; // = false
+    if (planner.has_blocks_queued())
+       gcode.reset_stepper_timeout(ms);
+    else if (!parked_or_ignoring && gcode.stepper_inactive_timeout()) 
+    {
+      if (!already_shutdown_steppers) 
+      {
+        already_shutdown_steppers = true;  //        
+        if (ENABLED(DISABLE_INACTIVE_X)) DISABLE_AXIS_X();
+        if (ENABLED(DISABLE_INACTIVE_Y)) DISABLE_AXIS_Y();
+        if (ENABLED(DISABLE_INACTIVE_Z)) DISABLE_AXIS_Z();
+        if (ENABLED(DISABLE_INACTIVE_E)) disable_e_steppers();
+        TERN_(..., ubl.steppers_were_disabled());
+      }
+    }
+    else
+      already_shutdown_steppers = false;
+  }
+
+  TERN_(..., controllerFan.update());
+  TERN_(..., powerManager.check());
+  TERN_(..., hotend_idle.check());
+  TERN_(..., handle_status_leds());
+  TERN_(..., monitor_tmc_drivers());
+  TERN_(..., L64xxManager.monitor_driver());
+
+  static millis_t next_check_axes_ms = 0;
+  if (ELAPSED(ms, next_check_axes_ms)) 
+  {
+    planner.check_axes_activity();
+    next_check_axes_ms = ms + 100UL;
+  }
+
+
+void idle(.....) 
+{
+  manage_inactivity(....);
+  thermalManager.manage_heater();
+  TERN_(...., max7219.idle_tasks());
+
+  if (marlin_state == MF_INITIALIZING) return;
+
+  TERN_(...., runout.run());
+  TERN_(..., card.manage_media());
+  TERN_(..., Sd2Card::idle());
+  TERN_(..., gcode.host_keepalive());
+  TERN_(..., print_job_timer.tick());
+  TERN_(..., buzzer.tick());
+  TERN(..., DWIN_Update(), ui.update());
+
+  if (!gcode.autoreport_paused) 
+  {
+     TERN_(..., thermalManager.auto_report_temperatures());
+     TERN_(..., card.auto_report_sd_status());
+  }
+
+  TERN_(..., mmu2.mmu_loop());
+  TERN_(..., joystick.inject_jog_moves());
+  TERN_(..., page_manager.write_responses());
+}
+
+void kill(...) 
+{
+  thermalManager.disable_all_heaters();
+  TERN_(..., cutter.kill()); 
+  SERIAL_ERROR_MSG(STR_ERR_KILLED);
+  ui.kill_screen(...);
+  minkill(steppers_off);
+}
+
+void minkill(...) 
+{
+  for (int i = 1000; i--;) DELAY_US(600);
+  cli(); 
+  for (int i = 1000; i--;) DELAY_US(250);
+  thermalManager.disable_all_heaters();
+  TERN_(..., cutter.kill());  
+  steppers_off ? disable_all_steppers() : disable_e_steppers();
+  TERN_(..., PSU_OFF());
+  TERN_(..., suicide()); 
+  for (;;) watchdog_refresh();  
+}
+
+void stop() 
+{
+  thermalManager.disable_all_heaters(); 
+  print_job_timer.stop(); 
+  if (IsRunning()) 
+  {
+    SERIAL_ERROR_MSG(STR_ERR_STOPPED);
+    LCD_MESSAGEPGM(MSG_STOPPED);
+    safe_delay(350); 
+    marlin_state = MF_STOPPED;
+  }
+}
+
+
+inline void tmc_standby_setup() { ...}
+
+/**
+ * Marlin entry-point: Set up before the program loop
+ *  - Set up the kill pin, filament runout, power hold
+ *  - Start the serial port
+ *  - Print startup messages and diagnostics
+ *  - Get EEPROM or default settings
+ *  - Initialize managers for:
+ *    • temperature
+ *    • planner
+ *    • watchdog
+ *    • stepper
+ *    • photo pin
+ *    • servos
+ *    • LCD controller
+ *    • Digipot I2C
+ *    • Z probe sled
+ *    • status LEDs
+ *    • Max7219
+ */
+void setup() 
+{
+  tmc_standby_setup(); 
+
+  #define SETUP_LOG(...) NOOP
+  #define SETUP_RUN(C) do{ SETUP_LOG(STRINGIFY(C)); C; }while(0)
+
+  MYSERIAL0.begin(BAUDRATE);
+  uint32_t serial_connect_timeout = millis() + 1000UL;
+  while (!MYSERIAL0 && PENDING(...)) { /*nada*/ }
+  
+  SERIAL_ECHO_MSG("start");
+  SETUP_RUN(HAL_init());
+  SETUP_RUN(setup_killpin());
+  SETUP_RUN(tmc_serial_begin());
+  SETUP_RUN(setup_powerhold());
+
+  SETUP_RUN(esp_wifi_init());
+
+  // Check startup - does nothing if bootloader sets MCUSR to 0
+  const byte mcu = HAL_get_reset_source();
+  if (mcu & RST_POWER_ON) SERIAL_ECHOLNPGM(STR_POWERUP);
+  if (mcu & RST_EXTERNAL) SERIAL_ECHOLNPGM(STR_EXTERNAL_RESET);
+  if (mcu & RST_BROWN_OUT) SERIAL_ECHOLNPGM(STR_BROWNOUT_RESET);
+  if (mcu & RST_WATCHDOG) SERIAL_ECHOLNPGM(STR_WATCHDOG_RESET);
+  if (mcu & RST_SOFTWARE) SERIAL_ECHOLNPGM(STR_SOFTWARE_RESET);
+  HAL_clear_reset_source();
+
+  serialprintPGM(GET_TEXT(...));
+  SERIAL_CHAR(' ');
+  SERIAL_ECHOLNPGM(...);
+  SERIAL_EOL();
+  SERIAL_ECHO_MSG(
+      " Last Updated: " STRING_DISTRIBUTION_DATE
+      " | Author: " STRING_CONFIG_H_AUTHOR
+    );
+  SERIAL_ECHO_MSG("Compiled: " __DATE__);
+  SERIAL_ECHO_MSG(..., freeMemory(), ...);
+
+  SETUP_RUN(buzzer.init());
+  SETUP_RUN(ui.init());
+  SETUP_RUN(ui.reset_status()); 
+  SETUP_RUN(settings.first_load());  
+  TERN_(..., current_position += home_offset); 
+  sync_plan_position(); 
+  SETUP_RUN(thermalManager.init()); 
+  SETUP_RUN(print_job_timer.init());
+  SETUP_RUN(endstops.init()); 
+  SETUP_RUN(stepper.init());  
+  SETUP_RUN(watchdog_init());   
+  SETUP_RUN(test_tmc_connection(true, true, true, true));
+
+  marlin_state = MF_RUNNING;
+
+  SETUP_LOG("setup() completed.");
+}
+
+/**
+ * The main Marlin program loop
+ *
+ *  - Call idle() to handle all tasks between G-code commands
+ *      Note that no G-codes from the queue can be executed during idle()
+ *      but many G-codes can be called directly anytime like macros.
+ *  - Check whether SD card auto-start is needed now.
+ *  - Check whether SD print finishing is needed now.
+ *  - Run one G-code command from the immediate or main command queue
+ *    and open up one space. Commands in the main queue may come from sd
+ *    card, host, or by direct injection. The queue will continue to fill
+ *    as long as idle() or manage_inactivity() are being called.
+ */
+void loop() 
+{
+  do 
+  {
+    idle();
+
+    card.checkautostart();
+
+    if (card.flag.abort_sd_printing) abortSDPrinting();
+    if (marlin_state == MF_SD_COMPLETE) finishSDPrinting();
+    
+    queue.advance();
+
+    endstops.event_handler();
+
+    TERN_(..., printer_state_polling());
+
+  } while (ENABLED(__AVR__));
+}

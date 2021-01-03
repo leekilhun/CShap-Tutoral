@@ -1,0 +1,90 @@
+
+1. Pin Read (예 7핀)
+#define _READ(IO) ((bool)(DIO ## IO ## _RPORT & MASK(DIO ## IO ## _PIN)))
+-->
+#define _READ(7) ((bool)(DIO7_RPORT & MASK(DIO7_PIN)))
+#define _READ(7) ((bool)(DIO7_RPORT & 2 ^ DIO7_PIN))
+#define _READ(7) ((bool)(PIND & 2 ^ PIN7)) // DIO7_RPORT  정의된 내용 대치
+#define _READ(7) ((bool)(_SFR_I08(0x09) & 10000000)) // SFR 정의된 헤더 파일에서 내용 
+#define _READ(7) ((bool)(_MMIO_BYTE(0x29) & 10000000)) // 
+#define _READ(7) ((bool)(B01010101 & B10000000)) // 
+결론적으로  #define _READ(7) ((bool)(PIND & MASK(7)))
+마이크로칩의 핀정보를 바이트 단위로 가지고 있는 registor와 AND로 마스킹하여 마스킹 비트 정보만 얻어옴
+
+
+2. Pin Write (예 13핀)
+#define _WRITE(IO, v) do { if (v) {DIO ## IO ## _WPORT |= MASK(DIO ## IO ## _PIN); } else {DIO ## IO ## _WPORT &= ~MASK(DIO ## IO ## _PIN); }; } while (0)
+
+#define _WRITE(13, 1)  // 1 = true
+do { 
+    if (13) { 
+           DIO13_WPORT |= MASK(DIO13_PIN);
+     } else { 
+           DIO ## IO ## _WPORT &= ~MASK(DIO ## IO ## _PIN);   
+     }; 
+ } while (0)
+
+#define _WRITE(13, 1)
+do { 
+    if (13) {
+	//DIO13_WPORT |= MASK(DIO13_PIN);
+	//_MMIO_BYTE(0x25) |=  2^5; 
+	 [00000000] |= B00100000  =>  결과적으로 [0010000] 메모리셋이 된다 
+     } else {
+	DIO ## IO ## _WPORT &= ~MASK(DIO ## IO ## _PIN); 
+     }; 
+ } while (0)
+
+#define _WRITE(13, 0)   // false case
+do { 
+    if (13) {
+	//DIO13_WPORT |= MASK(DIO13_PIN);
+	//_MMIO_BYTE(0x25) |=  2^5; 
+	 [00000000] |= B00100000  =>  결과적으로 [0010000] 메모리셋이 된다 
+     } else {
+	//DIO ## IO ## _WPORT &= ~MASK(DIO ## IO ## _PIN);
+	//DIO13_WPORT &= ~MASK(DIO13_PIN);
+	//PORTB &= ~ MASK(PINB5);
+	//_MMIO_BYTE(0x25) &= ~(2^5);
+	//_MMIO_BYTE(0x25) &= ~(B00100000);
+	//_MMIO_BYTE(0x25) &=  (B11011111);
+ 	_[00100000]	  &=  (B11011111);
+     }; 
+ } while (0)
+
+3. Toggle IO (예 13핀)
+#define _TOGGLE(IO) do {DIO ## IO ## _RPORT = MASK(DIO ## IO ## _PIN);} while (0)
+#define _TOGGLE(13) do {DIO13_RPORT = MASK(DIO13_PIN);} while (0)
+#define _TOGGLE(13) do {PINB= MASK(PINB5);} while (0)
+#define _TOGGLE(13) do {_MMIO_BYTE(0x23)= MASK(PINB5);} while (0)   
+ 예제로 본 atmega칩은 RPORT에 마스크를 하면 토글 동작을 함
+
+
+// Make sure macros aren't borked
+#define TEST1 
+#define TEST2 1
+#define TEST3 0
+#define TEST4 true
+1. 매크로 ENABLE에 대해
+#if ENABLED(TEST0) || !ENABLED(TEST2) || ENABLED(TEST3)
+  #error "ENABLED is borked!"
+#endif
+
+
+
+#if BOTH(TEST0, TEST1)
+  #error "BOTH is borked!"
+#endif
+#if DISABLED(TEST1) || !DISABLED(TEST3) || DISABLED(TEST4) || DISABLED(TEST0, TEST1, TEST2, TEST4) || !DISABLED(TEST0, TEST3)
+  #error "DISABLED is borked!"
+#endif
+#if !ANY(TEST1, TEST2, TEST3, TEST4) || ANY(TEST0, TEST3)
+  #error "ANY is borked!"
+#endif
+#if NONE(TEST0, TEST1, TEST2, TEST4) || !NONE(TEST0, TEST3)
+  #error "NONE is borked!"
+#endif
+#undef TEST1
+#undef TEST2
+#undef TEST3
+#undef TEST4
