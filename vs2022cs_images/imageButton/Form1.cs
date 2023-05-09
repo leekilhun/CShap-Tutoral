@@ -11,55 +11,84 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace imageButton
-{
-
-  public struct clpbf
-  {
-    public static PictureBox[] keyOf;
-    public static PictureBox[] keyOn;
-  }
-
-  // CustomImageButton 클래스
-  public class CustomImageButton
-  {
-    public class ImageButton : PictureBox
-    {
-      public Bitmap Image_01 { get; set; }
-      public Bitmap Image_02 { get; set; }
-
-      public ImageButton()
-      {
-        this.MouseDown += new MouseEventHandler(key_MouseDown);
-      }
-
-      private void key_MouseDown(object sender, MouseEventArgs e)
-      {
-        string s = this.Name.Substring(3, 2);
-        int b = Convert.ToByte(s);
-        //staTxd.Text = " " + b.ToString();
-      }
-    }
-  }
-
-  public struct ccubf
-  {
-    public static CustomImageButton.ImageButton[] keyOf; // 일반 이미지 버튼 배열
-  }
+{ 
 
   public partial class Form1 : Form
   {
-    
+
+    public struct clpbf
+    {
+      public static PictureBox[] keyOf;
+      public static PictureBox[] keyOn;
+    }
+
+    // CustomImageButton 클래스
+    public class CustomImageButton
+    {
+      public class ImageButton : PictureBox
+      {
+        public Bitmap Image_01 { get; set; }
+        public Bitmap Image_02 { get; set; }
+
+        public ImageButton()
+        {
+          this.MouseDown += new MouseEventHandler(key_MouseDown);
+        }
+
+        private void key_MouseDown(object sender, MouseEventArgs e)
+        {
+          string s = this.Name.Substring(3, 2);
+          int b = Convert.ToByte(s);
+          //staTxd.Text = " " + b.ToString();
+        }
+      }
+    }
+
+    public struct ccubf
+    {
+      public static CustomImageButton.ImageButton[] keyOf; // 일반 이미지 버튼 배열
+    }
+
 
     public Form1()
     {
       InitializeComponent();
+
+
+      btn_ini();
+
+      key_ini();
+
     }
 
     private void Form1_Load(object sender, EventArgs e)
     {
       //image_split_save();
+
+#if false
+      // 버튼 생성
+      Button button = new Button();
+      button.Text = "Click Me";
+      button.Location = new Point(50, 50);
+      button.Click += new EventHandler(button_Click);
+      // Form1에 버튼 추가
+      this.Controls.Add(button);
+#endif
+
+      // 이미지 단추 생성
+      CustomImageButton.ImageButton imageButton = new CustomImageButton.ImageButton();
+      imageButton.Image_01 = (Bitmap)clpbf.keyOf[0].Image;
+      imageButton.Image_02 = (Bitmap)clpbf.keyOn[0].Image;
+      imageButton.Location = new Point(10, 10); // 위치 수정
+      imageButton.MouseDown += new MouseEventHandler(key_MouseDown);
+      // pictureBox1.Controls.Add(imageButton); // 삭제
+      this.Controls.Add(imageButton); // 추가
     }
 
+    private void button_Click(object sender, EventArgs e)
+    {
+      MessageBox.Show("Button Clicked!");
+    }
 
     private void image_split_save()
     {
@@ -113,6 +142,7 @@ namespace imageButton
     { // 마우스 다운
       string s = (((CustomImageButton.ImageButton)sender).Name).Substring(3, 2); //"key00"
       int b = Convert.ToByte(s); // change to number
+
       //staTxd.Text = " " + b.ToString(); // button number
     }
 

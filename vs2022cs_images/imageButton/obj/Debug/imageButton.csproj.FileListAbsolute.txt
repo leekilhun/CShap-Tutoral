@@ -8,4 +8,4 @@ C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj
 C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
 C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.exe
 C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.pdb
-C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.CustomImageButton.resources
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.Form1.resources
