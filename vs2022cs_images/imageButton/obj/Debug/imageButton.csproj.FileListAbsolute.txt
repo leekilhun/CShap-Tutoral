@@ -1,0 +1,11 @@
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\bin\Debug\imageButton.exe.config
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\bin\Debug\imageButton.exe
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\bin\Debug\imageButton.pdb
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.AssemblyReference.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.SuggestedBindingRedirects.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.Properties.Resources.resources
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.GenerateResource.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.exe
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.pdb
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.CustomImageButton.resources
