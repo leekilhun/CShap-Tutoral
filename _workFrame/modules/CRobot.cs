@@ -17,7 +17,7 @@ namespace workFrame.modules
         private Rectangle _rtSquare_Arm;  // Robot 팔
         private Rectangle _rtSquare_Object;  // Robot이 가지고 움직 일 물건
 
-        public Rectangle RtCircle_Robot { get => _rtCircle_Robot; set => _rtCircle_Robot = value; }
+        public Rectangle RtCircle_Robot {  => _rtCircle_Robot; set => _rtCircle_Robot = value; }
         public Rectangle RtSquare_Arm { get => _rtSquare_Arm; set => _rtSquare_Arm = value; }
         public Rectangle RtSquare_Object { get => _rtSquare_Object; set => _rtSquare_Object = value; }
 

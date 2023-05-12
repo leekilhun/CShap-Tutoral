@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yTf9BeQOyBODzgRjH03yhAPcDZi5GNYIG6NWIJ+TNp/Ro/HbFgkmM+4bK4e7rSdo26UVzkUOdsdW5xH1MIuklw==",
+  "dgSpecHash": "0NOhs93fpunnwBAmFyTHauz66/UIVA9Dvi1B5+J+penQAjPgQtj38IidCylNPI3NlLtW4b/IIBe/IuGZKghhSA==",
   "success": true,
-  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\IEnumerableTest\\IEnumerableTest.csproj",
+  "projectFilePath": "D:\\_Github\\CShap-Tutoral\\IEnumerableTest\\IEnumerableTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
   ],
   "logs": []
 }

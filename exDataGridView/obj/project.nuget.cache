@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UyXRAr7AVuVuY4ZdLFgoS9aGb6TDyxNYSVlwnTueXEW7Kashf9RCGm3cCarbWhhbCGJRdPhA8HCnCmDqeUnT7g==",
+  "dgSpecHash": "7sudWOyX/tGGYn1BnIP6PrSMUysPwL4gOosRwlSfZ4887fTEeqFMtRHD/BteXXwZ04gzuj3agvT5xdmCcCtspg==",
   "success": true,
-  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\exDataGridView\\exDataGridView.csproj",
+  "projectFilePath": "D:\\_Github\\CShap-Tutoral\\exDataGridView\\exDataGridView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gns2l\\.nuget\\packages\\csvhelper\\18.0.0\\csvhelper.18.0.0.nupkg.sha512",
-    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aZHE5wLQALT0zfmIQO5yh4HVyQJn4FfkkyudRqS2T5dSsezhz2fv3gXc+Aiera/wv5sZvbW/ZrNHCG8ykQhplA==",
+  "dgSpecHash": "2K/Ec9SoFWs/tnSyXbVZ8RZMmxrh6VGAoHxvkbU529X2uEz3xJreUIM9xEyIg5RrxccCRKkn5FQ7q2JpuhspOw==",
   "success": true,
-  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\_workFrame\\_workFrame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\_Github\\CShap-Tutoral\\_workFrame\\_workFrame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }

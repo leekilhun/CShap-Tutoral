@@ -10,3 +10,17 @@ E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest
 E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.dll
 E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.pdb
 E:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.genruntimeconfig.cache
+D:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.exe
+D:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.deps.json
+D:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.runtimeconfig.json
+D:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.runtimeconfig.dev.json
+D:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.dll
+D:\_Github\CShap-Tutoral\IEnumerableTest\bin\Debug\netcoreapp3.1\IEnumerableTest.pdb
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.csproj.AssemblyReference.cache
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.AssemblyInfoInputs.cache
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.AssemblyInfo.cs
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.csproj.CoreCompileInputs.cache
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.dll
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.pdb
+D:\_Github\CShap-Tutoral\IEnumerableTest\obj\Debug\netcoreapp3.1\IEnumerableTest.genruntimeconfig.cache

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5QF67bZoMTPXLF/NlGR2dZlHqlSA5TXSw2Z8OTpPg5+CdoURkfKNggkVNpknb29dhy16/IH4TnprwuY7dXjsQ==",
+  "dgSpecHash": "vRnVy8uywpfTcrZf/TSTjLmyxt3Fnjjgm0l7FdlZp0stXMddSo956rw7tVL1dxRJ82+TAb3b6LjqgPFRtOH1wQ==",
   "success": true,
-  "projectFilePath": "E:\\_Github\\CShap-Tutoral\\exAsyncContol\\exAsyncContol.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\_Github\\CShap-Tutoral\\exAsyncContol\\exAsyncContol.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gns2l\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }
