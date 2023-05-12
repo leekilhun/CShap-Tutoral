@@ -1,0 +1,11 @@
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\bin\Debug\add_btn.exe.config
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\bin\Debug\add_btn.exe
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\bin\Debug\add_btn.pdb
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.csproj.AssemblyReference.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.csproj.SuggestedBindingRedirects.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.Form1.resources
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.Properties.Resources.resources
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.csproj.GenerateResource.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.csproj.CoreCompileInputs.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.exe
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\add_btn\obj\Debug\add_btn.pdb
