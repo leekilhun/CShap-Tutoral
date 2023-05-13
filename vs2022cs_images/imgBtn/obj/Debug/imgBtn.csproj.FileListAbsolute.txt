@@ -1,0 +1,11 @@
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\bin\Debug\imgBtn.exe.config
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\bin\Debug\imgBtn.exe
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\bin\Debug\imgBtn.pdb
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.csproj.AssemblyReference.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.csproj.SuggestedBindingRedirects.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.Form1.resources
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.Properties.Resources.resources
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.csproj.GenerateResource.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.csproj.CoreCompileInputs.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.exe
+D:\_Github\CShap-Tutoral\vs2022cs_images\imgBtn\obj\Debug\imgBtn.pdb

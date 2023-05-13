@@ -1,0 +1,10 @@
+C:\Users\gns2l\Downloads\TestProject\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\gns2l\Downloads\TestProject\TestProject\bin\Debug\TestProject.exe
+C:\Users\gns2l\Downloads\TestProject\TestProject\bin\Debug\TestProject.pdb
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.csproj.AssemblyReference.cache
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.MainForm.resources
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.csproj.GenerateResource.cache
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.exe
+C:\Users\gns2l\Downloads\TestProject\TestProject\obj\Debug\TestProject.pdb

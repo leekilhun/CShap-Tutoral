@@ -9,3 +9,14 @@ C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj
 C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.exe
 C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.pdb
 C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.Form1.resources
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\bin\Debug\imageButton.exe.config
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\bin\Debug\imageButton.exe
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\bin\Debug\imageButton.pdb
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.AssemblyReference.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.SuggestedBindingRedirects.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.Form1.resources
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.Properties.Resources.resources
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.GenerateResource.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.exe
+D:\_Github\CShap-Tutoral\vs2022cs_images\imageButton\obj\Debug\imageButton.pdb
