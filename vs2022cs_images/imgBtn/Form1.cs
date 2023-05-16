@@ -11,8 +11,6 @@ namespace imgBtn
     // CustomImageButton 클래스`
     public class CustomImageButton : PictureBox
     {
-
-
       public Bitmap Image_01 { get; set; }
       public Bitmap Image_02 { get; set; }
 

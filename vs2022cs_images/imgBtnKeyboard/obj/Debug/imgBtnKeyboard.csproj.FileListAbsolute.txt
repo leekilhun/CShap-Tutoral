@@ -1,0 +1,11 @@
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\bin\Debug\imgBtnKeyboard.exe.config
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\bin\Debug\imgBtnKeyboard.exe
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\bin\Debug\imgBtnKeyboard.pdb
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.csproj.AssemblyReference.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.csproj.SuggestedBindingRedirects.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.Form1.resources
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.Properties.Resources.resources
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.csproj.GenerateResource.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.csproj.CoreCompileInputs.cache
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.exe
+C:\Users\gns2l\Documents\git_repos\CShap-Tutoral\vs2022CS_Images\imgBtnKeyboard\obj\Debug\imgBtnKeyboard.pdb
